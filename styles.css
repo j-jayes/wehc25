@@ -1,0 +1,40 @@
+.content-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.top-story {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.top-story img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.red-background {
+  background-color: #c99393;
+}
+
+.top-story-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0;
+}
+
+.top-story-text h2 {
+  margin-top: 1.5rem;
+}
+
+/*-- background styles --*/
+
+.black-background {
+  background-color: black;
+}
+

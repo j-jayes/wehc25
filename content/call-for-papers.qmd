@@ -1,0 +1,8 @@
+---
+title: "Call for papers"
+format: html
+---
+
+## Content
+
+Call for papers text goes here

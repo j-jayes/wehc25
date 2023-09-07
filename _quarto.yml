@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: "docs"
+
+website:
+  title: "World Economic History Congress 2025"
+  navbar:
+    background: "#c99393"
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Calls"
+        menu:
+          - content/call-for-sessions.qmd
+          - content/call-for-papers.qmd
+    right:
+      - href: content/contact.qmd
+      - href: content/practical-information.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: source
+
+execute:
+  freeze: auto
+  echo: false
+
