@@ -141,7 +141,7 @@ We want your submissions for papers!
 You don't want to miss the dinner!
 
 ::: {.learn-more}
-[Read the call for sessions here »](content/register.qmd)
+[Register here »](content/register.qmd)
 :::
 :::
 
