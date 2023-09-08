@@ -4,7 +4,7 @@ title: "Look and Feel"
 
 ## Fonts
 
-Current fonts are Lato for headings and Open Sans for body text.
+Current fonts are `Lato` for headings and `Open Sans` for body text.
 
 ```{r}
 knitr::include_url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Lato-font-plain.svg/220px-Lato-font-plain.svg.png")
@@ -30,6 +30,14 @@ We currently use the [cosmo](https://bootswatch.com/cosmo/) theme.
 ## CSS
 
 We use [the following CSS](https://github.com/j-jayes/wehc25/blob/main/assets/index.css) to style the home page. It is pretty basic, allowing a hero image, a news section, and two images on the side of the hero image.
+
+## URL
+
+We own [wehc2025.com]() and [wehc2025.org](). We can use these URLs when we are ready to share the site.
+
+## Hosting
+
+Github pages hosts our site. It is free and works well.
 
 ---
 

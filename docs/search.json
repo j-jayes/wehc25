@@ -89,5 +89,19 @@
     "title": "Look and Feel",
     "section": "CSS",
     "text": "CSS\nWe use the following CSS to style the home page. It is pretty basic, allowing a hero image, a news section, and two images on the side of the hero image."
+  },
+  {
+    "objectID": "content/look-and-feel.html#url",
+    "href": "content/look-and-feel.html#url",
+    "title": "Look and Feel",
+    "section": "URL",
+    "text": "URL\nWe own wehc2025.com and wehc2025.org. We can use these URLs when we are ready to share the site."
+  },
+  {
+    "objectID": "content/look-and-feel.html#hosting",
+    "href": "content/look-and-feel.html#hosting",
+    "title": "Look and Feel",
+    "section": "Hosting",
+    "text": "Hosting\nGithub pages hosts our site. It is free and works well."
   }
 ]
