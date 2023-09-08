@@ -13,7 +13,9 @@ website:
       - text: "Calls"
         menu:
           - content/call-for-sessions.qmd
+          - content/call-for-sessions-member-associations.qmd
           - content/call-for-papers.qmd
+
     right:
       - href: content/look-and-feel.qmd
       - href: content/contact.qmd

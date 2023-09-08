@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "content/call-for-sessions.html",
-    "href": "content/call-for-sessions.html",
-    "title": "Call for sessions",
+    "objectID": "content/contact.html",
+    "href": "content/contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Call for sessions goes here"
+    "text": "Email: wehc@ekh.lu.se\nTwitter: @wehc2025"
   },
   {
-    "objectID": "content/call-for-sessions.html#content",
-    "href": "content/call-for-sessions.html#content",
-    "title": "Call for sessions",
+    "objectID": "content/contact.html#organizing-committee",
+    "href": "content/contact.html#organizing-committee",
+    "title": "Contact",
     "section": "",
-    "text": "Call for sessions goes here"
+    "text": "Email: wehc@ekh.lu.se\nTwitter: @wehc2025"
+  },
+  {
+    "objectID": "content/call-for-sessions-member-associations.html",
+    "href": "content/call-for-sessions-member-associations.html",
+    "title": "Call for sessions: member associations",
+    "section": "",
+    "text": "As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically.\nAssociation sessions allow our member organizations to showcase the work of their scholars in front of a global audience, engaging with new potential numbers. It also enables Associations to host meetings without incurring the overhead costs of renting space or basis.\nOther opportunities for member associations to publicise their activities at the meeting include a dedicated table in the publishers’ area where associations can display literature or copies of their journals, if relevant. There will also be meeting space available during the breaks for member associations to hold their own organizational meetings.\nThe member society session proposals should contain:\n\nName of the member society proposing the session\nContact information\nTitle of the session\nDescription of the session’s aim, contribution, and relevance (max 5,000 characters with blanks)\nPreferred date and time of the session\n\nMember associations should submit their sessions by January 31, 2024 via the Congress website [ADD URL HERE]. Decisions will be finalised in June 2024. Please note that only Associations which are up-to-date with their membership fees will be eligible to submit a proposal for a member association."
   },
   {
     "objectID": "about.html",
@@ -35,18 +42,11 @@
     "text": "Call for papers text goes here"
   },
   {
-    "objectID": "content/contact.html",
-    "href": "content/contact.html",
-    "title": "Contact",
+    "objectID": "content/call-for-sessions.html",
+    "href": "content/call-for-sessions.html",
+    "title": "Call for sessions",
     "section": "",
-    "text": "Email: wehc@ekh.lu.se\nTwitter: @wehc2025"
-  },
-  {
-    "objectID": "content/contact.html#organizing-committee",
-    "href": "content/contact.html#organizing-committee",
-    "title": "Contact",
-    "section": "",
-    "text": "Email: wehc@ekh.lu.se\nTwitter: @wehc2025"
+    "text": "We have a particularly strong desire to attract sessions related to the theme Equality and Sustainability Challenges. However, submissions are welcome on the economic and social histories of all places and periods, and on the exploration of varied sources and methods, and on the theory and uses of economic history itself. We also invite members to employ and analyse diverse strategies for representing the past.\nSessions may be proposed by any member of the international economic history community, whatever their institutional affiliation or status, as well as by scholars in related disciplines. Given the diversity of our membership, we will consider any submission that advances the study, teaching and public presentation of economic history. We welcome panel proposals that highlight scholarship emerging from economic history, business history, financial history, demographic history, environmental history, global and world history, social history, urban and agrarian history, gender studies, material culture, methodological approaches to historical research, history of economics and economic thought, science and technology studies, and other related fields.\nThe programme of the Lund Congress will be organised on the same principles as previous Congresses. The 5-day Congress will have approximately 180 sessions, with each day divided into time blocks of 90 minutes each (two before lunch and two after lunch). As in the past, it will be possible to combine two sessions into larger coherent units.\nThe session proposals should contain:\n\nName, title, affiliation, and contact information of the session organiser\nPossible co-organisers (optional)\nTitle of the session\nDescription of the session’s aim, contribution, and relevance (max 5,000 characters with blanks)\nPotential researchers (and their affiliations) to invite to the session or those already secured\n\nThe call for sessions will close on January 31, 2024. Sessions should be submitted via the Congress website at [ADD URL HERE]. Please note that unlike in past years, there will be ONLY ONE call for sessions. Decisions will be finalised in June 2024."
   },
   {
     "objectID": "content/look-and-feel.html",
@@ -68,13 +68,6 @@
     "title": "Look and Feel",
     "section": "Colours",
     "text": "Colours\nThe colour palette looks like this:"
-  },
-  {
-    "objectID": "content/look-and-feel.html#customization-in-quarto-sites",
-    "href": "content/look-and-feel.html#customization-in-quarto-sites",
-    "title": "Look and Feel",
-    "section": "Customization in quarto sites",
-    "text": "Customization in quarto sites\nThe below is generated by ChatGPT to explain how to style a site.\n\n1. Introduction to Static Sites & Quarto:\nStatic Site: Unlike dynamic websites that generate content on-the-fly (like websites with databases or user profiles), a static site has fixed content that doesn’t change unless you manually update the source files.\nQuarto: This is a static site generator. It takes content you’ve written, typically in Markdown or a similar format, and generates a complete, static website. It’s like a tool that converts your content into a website format.\n\n\n2. Bootstrap:\nBootstrap is a free and open-source CSS framework that’s directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.\nHow it changes the site look: Bootstrap provides a consistent base for styling. If you’re using a Bootstrap template, your website will be mobile-responsive, meaning it’ll look good on phones, tablets, and computers. It offers built-in design patterns which can be easily customized to match your site’s aesthetic.\n\n\n3. Fonts:\nFonts define the look and feel of the written text on your website.\nHow it changes the site look: Imagine reading a formal document in a ‘Comic Sans’ font. It wouldn’t feel right, would it? The choice of font sets the mood and tone of the content. Some fonts are professional, others playful, and others artistic. By choosing a particular font, you’re setting the tone for how readers perceive your content.\n\n\n4. Customizing CSS:\nCSS (Cascading Style Sheets) is the language we use to style a website.\nHow it changes the site look: Think of your website as a house. If HTML is the foundation and structure of the house, then CSS is the paint, decor, and furniture. By changing the CSS, you can modify everything from colors, spacing, layout structures, to animations. It’s the tool that turns a basic structure into a beautifully designed space.\n\n\n5. Colours:\nThese are the specific shades and hues you use on your website.\nHow it changes the site look: Colors evoke emotions. A site with a dark, moody color scheme gives a different vibe than one with bright, vibrant colors. Choosing colors is not just about aesthetics but also about the feelings and emotions you want your site to evoke.\n\n\n6. Logo:\nThis is often a symbol or design that represents your brand or site.\nHow it changes the site look: A logo is a focal point. It’s often the first thing people notice, and it sets the tone for the entire brand. A well-designed logo can make your site look professional and trustworthy.\n\n\n7. Hero Image:\nThis is a large banner image, prominently placed on a web page, usually at the front and center.\nHow it changes the site look: The hero image acts as the visual introduction to your content. It can be a powerful tool to grab attention, convey the purpose of the site quickly, and drive users to take action (like reading more or signing up)."
   },
   {
     "objectID": "content/look-and-feel.html#bootstrap",
@@ -103,5 +96,12 @@
     "title": "Look and Feel",
     "section": "Hosting",
     "text": "Hosting\nGithub pages hosts our site. It is free and works well."
+  },
+  {
+    "objectID": "content/look-and-feel.html#customization-in-quarto-sites",
+    "href": "content/look-and-feel.html#customization-in-quarto-sites",
+    "title": "Look and Feel",
+    "section": "Customization in quarto sites",
+    "text": "Customization in quarto sites\nThe below is generated by ChatGPT to explain how to style a site.\n\n1. Introduction to Static Sites & Quarto:\nStatic Site: Unlike dynamic websites that generate content on-the-fly (like websites with databases or user profiles), a static site has fixed content that doesn’t change unless you manually update the source files.\nQuarto: This is a static site generator. It takes content you’ve written, typically in Markdown or a similar format, and generates a complete, static website. It’s like a tool that converts your content into a website format.\n\n\n2. Bootstrap:\nBootstrap is a free and open-source CSS framework that’s directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.\nHow it changes the site look: Bootstrap provides a consistent base for styling. If you’re using a Bootstrap template, your website will be mobile-responsive, meaning it’ll look good on phones, tablets, and computers. It offers built-in design patterns which can be easily customized to match your site’s aesthetic.\n\n\n3. Fonts:\nFonts define the look and feel of the written text on your website.\nHow it changes the site look: Imagine reading a formal document in a ‘Comic Sans’ font. It wouldn’t feel right, would it? The choice of font sets the mood and tone of the content. Some fonts are professional, others playful, and others artistic. By choosing a particular font, you’re setting the tone for how readers perceive your content.\n\n\n4. Customizing CSS:\nCSS (Cascading Style Sheets) is the language we use to style a website.\nHow it changes the site look: Think of your website as a house. If HTML is the foundation and structure of the house, then CSS is the paint, decor, and furniture. By changing the CSS, you can modify everything from colors, spacing, layout structures, to animations. It’s the tool that turns a basic structure into a beautifully designed space.\n\n\n5. Colours:\nThese are the specific shades and hues you use on your website.\nHow it changes the site look: Colors evoke emotions. A site with a dark, moody color scheme gives a different vibe than one with bright, vibrant colors. Choosing colors is not just about aesthetics but also about the feelings and emotions you want your site to evoke.\n\n\n6. Logo:\nThis is often a symbol or design that represents your brand or site.\nHow it changes the site look: A logo is a focal point. It’s often the first thing people notice, and it sets the tone for the entire brand. A well-designed logo can make your site look professional and trustworthy.\n\n\n7. Hero Image:\nThis is a large banner image, prominently placed on a web page, usually at the front and center.\nHow it changes the site look: The hero image acts as the visual introduction to your content. It can be a powerful tool to grab attention, convey the purpose of the site quickly, and drive users to take action (like reading more or signing up)."
   }
 ]
