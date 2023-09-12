@@ -14,12 +14,13 @@ website:
         menu:
           - content/call-for-sessions.qmd
           - content/call-for-sessions-member-associations.qmd
-          - content/call-for-papers.qmd
 
     right:
-      - href: content/look-and-feel.qmd
+      # - href: content/look-and-feel.qmd
       - href: content/contact.qmd
       - href: content/practical-information.qmd
+      - href: "https://visitlund.se/en"
+        text: "Visit Lund"
 
 format:
   html:

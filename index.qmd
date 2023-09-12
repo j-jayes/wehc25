@@ -46,7 +46,7 @@ include-before-body:
 :::: {.columns}
 ::: {.content-container}
 ::: {.top-story .red-background}
-<a href="content/register">
+<!-- <a href="content/register"> -->
 
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
@@ -58,7 +58,7 @@ Held in Lund, Sweden
 :::
 :::
 
-</a>
+<!-- </a> -->
 
 :::
 :::
@@ -67,11 +67,15 @@ Held in Lund, Sweden
 ::::
 
 ::: {.hero-buttons}
-[Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"}
+
+<div class="d-flex justify-content-center">
+
+<!-- [Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
 [Propose a session](content/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
-[Submit an abstract](content/call-for-papers.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
-<!-- [Programme](programme.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
-<!-- [Venues](venues_new.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
+[Propose a member association session](content/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+
+</div>
+
 
 ::: 
 
@@ -161,25 +165,7 @@ As a new initiative, the IEHA invites session proposals from member associations
 :::
 :::
 
-::: {.feature}
-### {{< fa paperclip >}} Propose a paper for the World Economic History Conference 2025
 
-We want your submissions for papers!
-
-::: {.learn-more}
-[Read the call for papers here »](content/call-for-papers.qmd)
-:::
-:::
-
-::: {.feature}
-### {{< fa users-rectangle >}} Register for the World Economic History Conference 2025
-
-You don't want to miss the dinner!
-
-::: {.learn-more}
-[Register here »](content/register.qmd)
-:::
-:::
 
 :::
 :::
