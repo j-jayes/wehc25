@@ -54,7 +54,7 @@ include-before-body:
 Held in Lund, Sweden
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](assets/lund-cathedral.png)
+![](assets/wehc_sandra.svg)
 :::
 :::
 
@@ -180,7 +180,7 @@ Get in touch with the organizing committee [here](mailto:wehc@ekh.lu.se).
 ```{r}
 #| fig-width: 2
 
-knitr::include_graphics("assets/logo.png")
+knitr::include_graphics("assets/wehc_sandra.svg")
 ```
 
 :::
