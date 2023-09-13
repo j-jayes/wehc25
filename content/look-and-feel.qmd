@@ -23,6 +23,15 @@ The colour palette looks like this:
 scales::show_col(c("#c99393", "#f9eded", "#9E3939"))
 ```
 
+
+The new colours are
+
+```{r}
+scales::show_col(c("#a1c993", "#f0f9ed", "#529e39"))
+
+```
+
+
 ## Bootstrap
 
 We currently use the [cosmo](https://bootswatch.com/cosmo/) theme.

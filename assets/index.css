@@ -31,13 +31,13 @@
 
 .hero-banner {
   position: relative;
-  background-color: rgb(249, 237, 237);
+  background-color: #f0f9ed;
   display: flex;
   justify-content: center;
 }
 
 .hero-banner h1 {
-  color: #9e3939;
+  color: #529e39;
   font-size: 2.5rem;
 }
 
@@ -108,7 +108,7 @@
 
 
 .hero-banner #btn-guide {
-  background-color: #9e3939 !important;
+  background-color: #529e39 !important;
   border: none;
 }
 
@@ -153,8 +153,8 @@
 
 .hello-quarto-banner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   border: none;
-  border-bottom: 2px solid #9e3939 !important;
-  color: #9e3939;
+  border-bottom: 2px solid #529e39 !important;
+  color: #529e39;
   background-color: transparent;
 
 }

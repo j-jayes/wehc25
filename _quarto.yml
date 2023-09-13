@@ -5,7 +5,7 @@ project:
 website:
   title: "World Economic History Congress 2025"
   navbar:
-    background: "#c99393"
+    background: "#a1c993"
     title: false
     left:
       - href: index.qmd

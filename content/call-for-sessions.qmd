@@ -17,4 +17,4 @@ The session proposals should contain:
 - Description of the session’s aim, contribution, and relevance (max 5,000 characters with blanks)
 - Potential researchers (and their affiliations) to invite to the session or those already secured
  
-The call for sessions will close on January 31, 2024. Sessions should be submitted via the Congress website at [ADD URL HERE]. **Please note that unlike in past years, there will be ONLY ONE call for sessions**. Decisions will be finalised in June 2024.
+The call for sessions will close on January 31, 2024. Sessions should be submitted via the portal at at [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). **Please note that unlike in past years, there will be ONLY ONE call for sessions**. Decisions will be finalised in June 2024.
