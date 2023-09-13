@@ -52,7 +52,7 @@ include-before-body:
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
 ## World Economic History Congress 2025
 
-28 July - 1 August 2025
+28 July -<br>1 August 2025
 
 Lund, Sweden
 :::
