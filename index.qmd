@@ -51,10 +51,13 @@ include-before-body:
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
 ## World Economic History Congress 2025
-Held in Lund, Sweden
+
+28 July - 1 August 2025
+
+Lund, Sweden
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](assets/wehc_sandra.svg)
+![](assets/wehc_noline.png)
 :::
 :::
 
@@ -180,7 +183,7 @@ Get in touch with the organizing committee [here](mailto:wehc@ekh.lu.se).
 ```{r}
 #| fig-width: 2
 
-knitr::include_graphics("assets/wehc_sandra.svg")
+knitr::include_graphics("assets/wehc_noline.png")
 ```
 
 :::
