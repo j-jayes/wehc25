@@ -243,26 +243,24 @@ nav.page-navigation {
   font-size: 24px;
   text-align: center;
   margin-top: 20px;
+  color: #000; /* Black text */
+  padding: 20px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 #countdown span {
   margin: 0 10px;
   padding: 5px 10px;
-  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background for the rounded boxes */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Border adjusted to be black with low opacity */
   display: inline-block;
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s; /* Smooth transition for hover effects */
+  color: #000; /* Black text for the span */
 }
 
-#countdown {
-  font-size: 24px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#countdown span {
-  margin: 0 10px;
-  padding: 5px 10px;
-  border: 1px solid #333;
-  display: inline-block;
+#countdown span:hover {
+  background: rgba(0, 0, 0, 0.1); /* Slightly dark background on hover */
 }
 
 /* Mobile styles */
@@ -272,8 +270,8 @@ nav.page-navigation {
   }
 
   #countdown span {
-    display: block; /* Makes each time component appear on a new line */
-    margin: 5px auto; /* Centers each time component and adds a small space above and below */
+    display: block;
+    margin: 5px auto;
+    width: 60%; /* Set a width to control the block display on mobile */
   }
 }
-
