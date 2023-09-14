@@ -4,6 +4,7 @@ project:
 
 website:
   title: "World Economic History Congress 2025"
+  favicon: "assets/faicon.ico"
   navbar:
     background: "#a1c993"
     title: false
@@ -18,13 +19,13 @@ website:
     right:
       # - href: content/look-and-feel.qmd
       - href: content/contact.qmd
-      - href: content/practical-information.qmd
+      # - href: content/practical-information.qmd
       - href: "https://visitlund.se/en"
         text: "Visit Lund"
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 

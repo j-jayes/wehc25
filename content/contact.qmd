@@ -9,5 +9,3 @@ toc: false
 ## Organizing committee
 
 **Email:** [wehc@ekh.lu.se](mailto:wehc@ekh.lu.se)
-
-**Twitter:** [@wehc2025](https://twitter.com/wehc2025)
