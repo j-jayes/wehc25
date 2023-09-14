@@ -21,6 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.maven-style,
+.maven-style p,
+.maven-style span {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
 
 .content-container {
   padding-left: 1.5em;

@@ -46,7 +46,7 @@ include-before-body:
 ## World Economic History Congress 2025
 
 
-:::: {.columns}
+:::: {.columns .maven-style}
 ::: {.column width="40%"}
 
 28 July -<br>1 August 2025
@@ -58,15 +58,11 @@ Lund, Sweden
 ![](assets/wehc_noline.png)
 :::
 
-<b>
-
 The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. But the congress also appeal to economists, historians, management scholars, sociologists, demographers, geographers, anthropologists, ethnographists, psychologists, philosophers, and to historians of science and technology, as well as nature and life scientists. All researchers across the world are more than welcome to participate.
  
 The theme for the 2025 Congress is Equality and Sustainability Challenges, which highlights some of the central issues facing humanity today and also connects to a broad and diverse range of historical problems. To address both the challenges and to find insights from the historical record for that endeavor, a range of perspectives will be necessary.
  
 We welcome you to Lund in July 2025!
-
-</b>
 
 ::::
 

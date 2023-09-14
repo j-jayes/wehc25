@@ -251,3 +251,29 @@ nav.page-navigation {
   border: 1px solid #333;
   display: inline-block;
 }
+
+#countdown {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#countdown span {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  display: inline-block;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  #countdown {
+    font-size: 18px;
+  }
+
+  #countdown span {
+    display: block; /* Makes each time component appear on a new line */
+    margin: 5px auto; /* Centers each time component and adds a small space above and below */
+  }
+}
+
