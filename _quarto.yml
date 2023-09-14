@@ -6,7 +6,7 @@ website:
   title: "World Economic History Congress 2025"
   favicon: assets/favicon.ico
   navbar:
-    background: "#a1c993"
+    # background: "#a1c993"
     title: false
     left:
       - href: index.qmd
@@ -25,7 +25,9 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+    - flatly
+    - assets/custom.scss
     css: styles.css
     toc: true
 
