@@ -148,7 +148,7 @@ As a new initiative, the IEHA invites session proposals from member associations
 
 ### Contact us {{< fa paper-plane >}}
 
-Get in touch with the organizing committee [here](mailto:wehc@ekh.lu.se).
+Get in touch with the organizing committee [here](mailto:wehc2025@ekh.lu.se).
 
 ```{r}
 #| fig-width: 2
