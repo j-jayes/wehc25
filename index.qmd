@@ -46,6 +46,7 @@ include-before-body:
 ## World Economic History Congress
 
 
+
 :::: {.columns .maven-style}
 ::: {.column width="40%"}
 
@@ -63,6 +64,7 @@ The World Economic History Congress (WEHC) is an international and interdiscipli
 The theme for the 2025 Congress is Equality and Sustainability Challenges, which highlights some of the central issues facing humanity today and also connects to a broad and diverse range of historical problems. To address both the challenges and to find insights from the historical record for that endeavor, a range of perspectives will be necessary.
  
 We welcome you to Lund in July 2025!
+Looking forward to it!
 
 ::::
 
