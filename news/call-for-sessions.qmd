@@ -1,6 +1,8 @@
 ---
-title: "Call for sessions"
+title: "{{< fa people-group >}} Call for sessions"
 format: html
+description: We have a particularly strong desire to attract sessions related to the theme `Equality and Sustainability Challenges`. However, submissions are welcome on the economic and social histories of all places and periods, and on the exploration of varied sources and methods, and on the theory and uses of economic history itself.
+
 ---
 
 The 20th World Economic History Congress will convene from 28 July–1 August 2025 in Lund, Sweden. The theme for the Congress is `Equality and Sustainability Challenges`, which highlights some of the central issues facing humanity today and also connects to a broad and diverse range of historical problems. To address both the challenges and to find insights from the historical record for that endeavour, a range of perspectives will be necessary.

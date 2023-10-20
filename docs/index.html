@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,7 +64,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news-listing'] = new List('listing-news-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="assets/index.css">
@@ -90,12 +123,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-calls">    
         <li>
-    <a class="dropdown-item" href="./content/call-for-sessions.html" rel="" target="">
- <span class="dropdown-text">Call for sessions</span></a>
+    <a class="dropdown-item" href="./news/call-for-sessions.html" rel="" target="">
+ <span class="dropdown-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/call-for-sessions-member-associations.html" rel="" target="">
- <span class="dropdown-text">Call for sessions: member associations</span></a>
+    <a class="dropdown-item" href="./news/call-for-sessions-member-associations.html" rel="" target="">
+ <span class="dropdown-text"><i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations</span></a>
   </li>  
     </ul>
   </li>
@@ -167,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="hero-buttons">
 <div class="d-flex justify-content-center">
 <!-- [Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
-<p><a href="./content/call-for-sessions.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a session</a> <a href="./content/call-for-sessions-member-associations.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a member association session</a></p>
+<p><a href="./news/call-for-sessions.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a session</a> <a href="./news/call-for-sessions-member-associations.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a member association session</a></p>
 </div>
 </div>
 </section>
@@ -179,37 +212,45 @@ ul.task-list li input[type="checkbox"] {
 <div id="countdown">
 <p><span id="days"></span> Days <span id="hours"></span> Hours <span id="minutes"></span> Minutes <span id="seconds"></span> Seconds</p>
 </div>
-<div class="grid">
-<div class="g-col-4">
-
-</div>
-<div class="g-col-4">
-<section id="fa-newspaper-news" class="get-started">
+<section id="fa-newspaper-news" class="content-block" style="text-align: center;">
 <h2><i class="fa-solid fa-newspaper" aria-label="newspaper"></i> News</h2>
+<!-- News -->
+<div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1697806506116" data-listing-reading-time-sort="2">
+<a href="./news/call-for-sessions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions
+</h5>
+<div class="card-text listing-description">
+We have a particularly strong desire to attract sessions related to the theme <code>Equality and Sustainability Challenges</code>. However, submissions are welcome on the economic and…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1697806513991" data-listing-reading-time-sort="2">
+<a href="./news/call-for-sessions-member-associations.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations
+</h5>
+<div class="card-text listing-description">
+As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight…
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-</div>
-<div class="g-col-4">
-
-</div>
-</div>
-<div class="content-block">
-<div class="features border">
-<section id="fa-people-group-propose-a-session-for-the-world-economic-history-conference-2025" class="feature">
-<h3><i class="fa-solid fa-people-group" aria-label="people-group"></i> Propose a session for the World Economic History Conference 2025</h3>
-<p>We have a particularly strong desire to attract sessions related to the theme <code>Equality and Sustainability Challenges</code>. However, submissions are welcome on the economic and social histories of all places and periods, and on the exploration of varied sources and methods, and on the theory and uses of economic history itself.</p>
-<div class="learn-more">
-<p><a href="./content/call-for-sessions.html">Read the call for sessions here »</a></p>
-</div>
-</section>
-<section id="fa-people-roof-propose-a-member-association-session-for-the-world-economic-history-conference-2025" class="feature">
-<h3><i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Propose a member association session for the World Economic History Conference 2025</h3>
-<p>As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically.</p>
-<div class="learn-more">
-<p><a href="./content/call-for-sessions-member-associations.html">Read the call for sessions here »</a></p>
-</div>
-</section>
-</div>
-</div>
 <div class="get-started alt-background">
 <section id="contact-us-fa-paper-plane" class="content-block">
 <h3>Contact us <i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></h3>
@@ -221,6 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </div>
+
 
 
 

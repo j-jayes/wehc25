@@ -13,8 +13,8 @@ website:
         text: Home
       - text: "Calls"
         menu:
-          - content/call-for-sessions.qmd
-          - content/call-for-sessions-member-associations.qmd
+          - news/call-for-sessions.qmd
+          - news/call-for-sessions-member-associations.qmd
 
     right:
       # - href: content/look-and-feel.qmd

@@ -4,6 +4,13 @@ page-layout: custom
 section-divs: false
 toc: false
 css: assets/index.css
+listing: 
+  id: news-listing
+  contents: news/*.qmd
+  type: grid
+  fields: [title, description]
+  sort-ui: false
+  filter-ui: false
 include-before-body:
   text: |
     <script>
@@ -71,8 +78,8 @@ We look forward to welcoming you to Lund in July 2025!
 <div class="d-flex justify-content-center">
 
 <!-- [Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
-[Propose a session](content/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
-[Propose a member association session](content/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+[Propose a session](news/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
+[Propose a member association session](news/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
 
 </div>
 
@@ -95,53 +102,16 @@ We look forward to welcoming you to Lund in July 2025!
   <span id="seconds"></span> Seconds
 </div>
 
+::: {.content-block style="text-align: center;"}
 
-
-::: {.grid}
-
-::: {.g-col-4}
-
-:::
-
-::: {.g-col-4}
-:::{.get-started}
 ## {{< fa newspaper >}} News
+
+
+<!-- News -->
+::: {#news-listing}
 :::
 :::
 
-::: {.g-col-4}
-
-:::
-
-:::
-
-::: {.content-block}
-::: {.features .border}
-
-::: {.feature}
-### {{< fa people-group >}} Propose a session for the World Economic History Conference 2025
-
-We have a particularly strong desire to attract sessions related to the theme `Equality and Sustainability Challenges`. However, submissions are welcome on the economic and social histories of all places and periods, and on the exploration of varied sources and methods, and on the theory and uses of economic history itself.
-
-::: {.learn-more}
-[Read the call for sessions here »](content/call-for-sessions.qmd)
-:::
-:::
-
-::: {.feature}
-### {{< fa people-roof >}} Propose a member association session for the World Economic History Conference 2025
-
-As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically.
-
-::: {.learn-more}
-[Read the call for sessions here »](content/call-for-sessions-member-associations.qmd)
-:::
-:::
-
-
-
-:::
-:::
 
 ::: {.get-started .alt-background}
 ::: {.content-block}
