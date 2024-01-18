@@ -40,7 +40,8 @@ jobs:
           uses: r-lib/actions/setup-r-dependencies@v2
           with:
             packages:
-              any::tidyverse
+              any::rmarkdown
+              any::knitr
 
   
         # From https://github.com/julia-actions/setup-julia
