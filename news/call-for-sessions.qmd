@@ -23,4 +23,4 @@ The session proposals should contain:
 - Researchers invited to participate in the session, or those already confirmed, and their affiliations
 
  
-The call for sessions will close on January 31, 2024. Sessions should be submitted via the portal at at [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). **Please note that unlike in past years, there will be ONLY ONE call for sessions**. Decisions will be finalised in June 2024.
+The call for sessions will close on January 32, 2024. Sessions should be submitted via the portal at at [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). **Please note that unlike in past years, there will be ONLY ONE call for sessions**. Decisions will be finalised in June 2024.
