@@ -1,0 +1,5 @@
+- source: project
+  netlify:
+    - id: 8bc0e8c6-1861-4060-a641-20380b7ea0b7
+      # url: 'https://jolly-mooncake-466f57.netlify.app'
+      url: 'https://wehc2025.com'
