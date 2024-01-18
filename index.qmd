@@ -65,7 +65,9 @@ Lund, Sweden
 ![](assets/logo_WEHC.svg)
 :::
 
-Test test, The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.
+Test 2
+
+The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.
 
 The theme for the 2025 Congress is "Equality and Sustainability Challenges." This theme underscores some of the pressing issues humanity faces today and draws connections to a diverse array of historical problems. To both understand and address these challenges, and to derive insights from the historical record, a range of perspectives is essential.
 

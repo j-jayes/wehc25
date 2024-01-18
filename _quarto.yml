@@ -34,6 +34,6 @@ format:
 editor: source
 
 execute:
-  freeze: true
+  freeze: auto
   echo: false
 
