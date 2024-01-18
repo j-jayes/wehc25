@@ -54,11 +54,11 @@ jobs:
         - name: Render Quarto Project
           uses: quarto-dev/quarto-actions/render@v2
         
-        # - name: Publish to Netlify (and render)
-        #   uses: quarto-dev/quarto-actions/publish@v2
-        #   with:
-        #     target: netlify
-        #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        - name: Publish to Netlify (and render)
+          uses: quarto-dev/quarto-actions/publish@v2
+          with:
+            target: netlify
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           
         # - name: Publish to RStudio Connect (and render)
         #   uses: quarto-dev/quarto-actions/publish@v2
