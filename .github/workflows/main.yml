@@ -53,12 +53,6 @@ jobs:
         # the appropriate block below
         - name: Render Quarto Project
           uses: quarto-dev/quarto-actions/render@v2
-        
-        - name: Publish to Netlify (and render)
-          uses: quarto-dev/quarto-actions/publish@v2
-          with:
-            target: netlify
-            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           
         # - name: Publish to RStudio Connect (and render)
         #   uses: quarto-dev/quarto-actions/publish@v2
@@ -74,4 +68,23 @@ jobs:
         #     target: gh-pages
         #   env:
         #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-        
+
+        - name: Commit files
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add -A
+            git diff-index --quiet HEAD || (git commit -a -m "rerender site" --allow-empty)
+
+        - name: Push changes
+          uses: ad-m/github-push-action@v0.6.0
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: main
+
+
+        - name: Publish to Netlify (and render)
+          uses: quarto-dev/quarto-actions/publish@v2
+          with:
+            target: netlify
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
