@@ -1,5 +1,5 @@
 ---
-title: "{{< fa-clipboard >}} Call for posters"
+title: "{{< fa solid clipboard >}} Call for posters"
 format: html
 ---
 
