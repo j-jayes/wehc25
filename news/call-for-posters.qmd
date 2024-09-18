@@ -1,5 +1,5 @@
 ---
-title: "Call for Posters"
+title: "<i class="fa-sharp-duotone fa-solid fa-clipboard"></i> Call for Posters"
 description: ""
 ---
 
