@@ -1,7 +1,7 @@
 ---
 title: "{{< fa people-roof >}} Call for sessions: member associations"
+format: html
 description: As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically.
-
 ---
 
 The 20th World Economic History Congress will convene from 28 July– August 2025 in Lund, Sweden. As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically. 
