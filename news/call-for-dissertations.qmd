@@ -1,5 +1,5 @@
 ---
-title: "{{< fa people-group >}} Call for dissertations"
+title: "<i class="fa-sharp-duotone fa-solid fa-book"></i> Call for dissertations"
 format: html
 description: Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 
@@ -8,6 +8,7 @@ description: Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 The World Economic History Congress will dedicate three sessions on Monday 28 July 2025 for the PhD dissertation competition. The sessions and prizes are divided according to the dissertations’ main time focus – before the 19th century, the long 19th century, or the 20th and 20th centuries. A review group will beforehand read the thesis and listen to the participants’ presentations. The Prize winners will be announced at the Congress festivities Wednesday evening 30 July.
  
 Eligible to participate are PhD graduates who successfully defended their thesis between 1 September 2021 and 31 December 2024. The subject of the thesis must be Economic history, but can of course have been defended in neighbouring disciplines, for example Economics or History. 
-Apply to participate by sending an email to wehc2025@ekh.lu.se. Enter "Dissertation session" in the subject box. The mail must state your name, affiliation, the title of the thesis, time focus of your dissertation according to the division above, where and when the thesis was defended and an electronic link to the full text thesis.
+
+Apply to participate by sending an email to [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se). Enter "Dissertation session" in the subject box. The mail must state your name, affiliation, the title of the thesis, time focus of your dissertation according to the division above, where and when the thesis was defended and an electronic link to the full text thesis.
  
 Send your application no later than 10 January 2025.
