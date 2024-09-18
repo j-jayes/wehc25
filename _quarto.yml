@@ -16,6 +16,7 @@ website:
           - news/call-for-sessions.qmd
           - news/call-for-sessions-member-associations.qmd
           - news/call-for-posters.qmd
+          - news/call-for-dissertations.qmd
 
     right:
       # - href: content/look-and-feel.qmd
