@@ -1,5 +1,5 @@
 ---
-title: title: "{{< fa solid book >}} Call for dissertations"
+title: "{{< fa solid book >}} Call for dissertations"
 format: html
 description: Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 
