@@ -1,5 +1,6 @@
 ---
 title: "{{<fa-sharp-duotone fa-solid fa-clipboard>}} Call for Posters"
+format: html
 description: "test"
 ---
 
