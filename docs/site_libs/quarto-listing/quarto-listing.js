@@ -81,7 +81,7 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
 });
 
 function toggleNoMatchingMessage(list) {
-  const selector = `#${list.listContainer.id} .listing-no-matching`;
+  const selector = #${list.listContainer.id} .listing-no-matching;
   const noMatchingEl = window.document.querySelector(selector);
   if (noMatchingEl) {
     if (list.visibleItems.length === 0) {
@@ -105,7 +105,7 @@ function setPageHash(listingId, page) {
 }
 
 function getListingPageKey(listingId) {
-  return `${listingId}-page`;
+  return ${listingId}-page;
 }
 
 function refreshPaginationHandlers(listingId) {
@@ -128,7 +128,7 @@ function renderVisibleProgressiveImages(list) {
     const itemEl = item.elm;
     if (itemEl) {
       const progressiveImgs = itemEl.querySelectorAll(
-        `img[${kProgressiveAttr}]`
+        img[${kProgressiveAttr}]
       );
       for (const progressiveImg of progressiveImgs) {
         const srcValue = progressiveImg.getAttribute(kProgressiveAttr);
@@ -180,14 +180,14 @@ function parseHash(hash) {
 function makeHash(obj) {
   return Object.keys(obj)
     .map((key) => {
-      return `${key}${kEquals}${obj[key]}`;
+      return ${key}${kEquals}${obj[key]};
     })
     .join(kAnd);
 }
 
 function setHash(obj) {
   const hash = makeHash(obj);
-  window.history.pushState(null, null, `#${hash}`);
+  window.history.pushState(null, null, #${hash});
 }
 
 function showPage(listingId, page) {
@@ -208,7 +208,7 @@ function activateCategory(category) {
 
   // Activate this category
   const categoryEl = window.document.querySelector(
-    `.quarto-listing-category .category[data-category='${category}'`
+    .quarto-listing-category .category[data-category='${category}'
   );
   if (categoryEl) {
     categoryEl.classList.add("active");
