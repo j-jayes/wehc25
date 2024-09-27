@@ -13,11 +13,9 @@ window["quarto-listing-loaded"] = () => {
   const hash = getHash();
 
   if (hash) {
-    // If there is a category, switch to that
     if (hash.category) {
       activateCategory(hash.category);
     }
-    // Paginate a specific listing
     const listingIds = Object.keys(window["quarto-listings"]);
     for (const listingId of listingIds) {
       const page = hash[getListingPageKey(listingId)];
@@ -29,8 +27,15 @@ window["quarto-listing-loaded"] = () => {
 
   const listingIds = Object.keys(window["quarto-listings"]);
   for (const listingId of listingIds) {
-    // The actual list
     const list = window["quarto-listings"][listingId];
+
+    // Add sorting logic here:
+    list.items.sort((a, b) => {
+      // Extract the date from a custom data attribute (e.g., data-listing-date-sort)
+      const dateA = new Date(a.elm.getAttribute('data-listing-date-sort'));
+      const dateB = new Date(b.elm.getAttribute('data-listing-date-sort'));
+      return dateB - dateA; // Sorts in descending order, so most recent appears first
+    });
 
     // Update the handlers for pagination events
     refreshPaginationHandlers(listingId);
@@ -38,9 +43,6 @@ window["quarto-listing-loaded"] = () => {
     // Render any visible items that need it
     renderVisibleProgressiveImages(list);
 
-    // Whenever the list is updated, we also need to
-    // attach handlers to the new pagination elements
-    // and refresh any newly visible items.
     list.on("updated", function () {
       renderVisibleProgressiveImages(list);
       setTimeout(() => refreshPaginationHandlers(listingId));
@@ -66,7 +68,6 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
   }
 
   // Attach a click handler to the category title
-  // (there should be only one, but since it is a class name, handle N)
   const categoryTitleEls = window.document.querySelectorAll(
     ".quarto-listing-category-title"
   );
@@ -142,8 +143,6 @@ function renderVisibleProgressiveImages(list) {
 }
 
 function getHash() {
-  // Hashes are of the form
-  // #name:value|name1:value1|name2:value2
   const currentUrl = new URL(window.location);
   const hashRaw = currentUrl.hash ? currentUrl.hash.slice(1) : undefined;
   return parseHash(hashRaw);
@@ -198,7 +197,6 @@ function showPage(listingId, page) {
 }
 
 function activateCategory(category) {
-  // Deactivate existing categories
   const activeEls = window.document.querySelectorAll(
     ".quarto-listing-category .category.active"
   );
@@ -206,7 +204,6 @@ function activateCategory(category) {
     activeEl.classList.remove("active");
   }
 
-  // Activate this category
   const categoryEl = window.document.querySelector(
     `.quarto-listing-category .category[data-category='${category}'`
   );
@@ -214,7 +211,6 @@ function activateCategory(category) {
     categoryEl.classList.add("active");
   }
 
-  // Filter the listings to this category
   filterListingCategory(category);
 }
 
@@ -224,10 +220,8 @@ function filterListingCategory(category) {
     const list = window["quarto-listings"][listingId];
     if (list) {
       if (category === "") {
-        // resets the filter
         list.filter();
       } else {
-        // filter to this category
         list.filter(function (item) {
           const itemValues = item.values();
           if (itemValues.categories !== null) {
@@ -241,3 +235,4 @@ function filterListingCategory(category) {
     }
   }
 }
+
