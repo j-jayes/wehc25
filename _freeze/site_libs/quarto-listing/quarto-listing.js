@@ -1,3 +1,4 @@
+
 const kProgressiveAttr = "data-src";
 let categoriesLoaded = false;
 
