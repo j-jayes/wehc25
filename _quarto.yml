@@ -1,7 +1,3 @@
-project:
-  type: website
-  output-dir: "docs"
-
 website:
   title: "World Economic History Congress 2025"
   favicon: assets/favicon.ico
@@ -13,29 +9,13 @@ website:
         text: Home
       - text: "Calls"
         menu:
-          - news/call-for-sessions.qmd
-          - news/call-for-sessions-member-associations.qmd
           - news/call-for-posters.qmd
           - news/call-for-dissertations.qmd
-
+          - news/call-for-sessions.qmd
+          - news/call-for-sessions-member-associations.qmd
+      - href: Preliminary_schedule.pdf
+        text: "Preliminary Schedule"  
     right:
-      # - href: content/look-and-feel.qmd
       - href: content/contact.qmd
-      # - href: content/practical-information.qmd
       - href: "https://visitlund.se/en"
         text: "Visit Lund"
-
-format:
-  html:
-    theme:
-    - flatly
-    - assets/custom.scss
-    css: styles.css
-    toc: true
-
-editor: source
-
-execute:
-  freeze: auto
-  echo: false
-
