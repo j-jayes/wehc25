@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -131,7 +165,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="assets/index.css">
 </head>
 
@@ -157,14 +190,6 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-calls">    
         <li>
-    <a class="dropdown-item" href="./news/call-for-sessions.html">
- <span class="dropdown-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./news/call-for-sessions-member-associations.html">
- <span class="dropdown-text"><i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./news/call-for-posters.html">
  <span class="dropdown-text"><i class="fa-solid fa-clipboard" aria-label="clipboard"></i> Call for posters</span></a>
   </li>  
@@ -172,8 +197,20 @@ window.Quarto = {
     <a class="dropdown-item" href="./news/call-for-dissertations.html">
  <span class="dropdown-text"><i class="fa-solid fa-book" aria-label="book"></i> Call for dissertations</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./news/call-for-sessions.html">
+ <span class="dropdown-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./news/call-for-sessions-member-associations.html">
+ <span class="dropdown-text"><i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations</span></a>
+  </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./#"> 
+<span class="menu-text">Test Button</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -243,7 +280,7 @@ window.Quarto = {
 <div class="hero-buttons">
 <div class="d-flex justify-content-center">
 <!-- [Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
-<p><a href="./news/call-for-sessions.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a session</a> <a href="./news/call-for-sessions-member-associations.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a member association session</a> <a href="Preliminary_schedule.pdf" id="btn-guide" class="btn-action btn btn-info" role="button">Preliminary Schedule</a></p>
+<p><a href="./news/call-for-sessions.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a session</a> <a href="./news/call-for-sessions-member-associations.html" id="btn-guide" class="btn-action btn btn-info" role="button">Propose a member association session</a></p>
 </div>
 </div>
 </section>
@@ -260,7 +297,7 @@ window.Quarto = {
 <!-- News -->
 <div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727513661217" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727519238525" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <a href="./news/call-for-sessions.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -274,7 +311,7 @@ We have a particularly strong desire to attract sessions related to the theme <c
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727513661217" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727519238519" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
 <a href="./news/call-for-sessions-member-associations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -288,7 +325,7 @@ As a new initiative, the IEHA invites session proposals from member associations
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727513661217" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727519238506" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <a href="./news/call-for-dissertations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -302,7 +339,7 @@ Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727513661217" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727519238513" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
 <a href="./news/call-for-posters.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -327,6 +364,7 @@ No matching items
 <h3>Contact us <i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></h3>
 <p>Get in touch with the organizing committee <a href="mailto:wehc2025@ekh.lu.se">here</a>.</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"assets/logo_WEHC.svg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
