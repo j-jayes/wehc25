@@ -1,3 +1,6 @@
+project:
+  type: website
+  output-dir: "docs"
 
 website:
   title: "World Economic History Congress 2025"
@@ -14,8 +17,9 @@ website:
           - news/call-for-dissertations.qmd
           - news/call-for-sessions.qmd
           - news/call-for-sessions-member-associations.qmd
-      - href: Preliminary_schedule.pdf
-        text: "Preliminary Schedule"  
+      - href: "#"
+        text: "Test Button"  # The test button
+
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
