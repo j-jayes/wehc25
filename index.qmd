@@ -65,11 +65,9 @@ Lund, Sweden
 ![](assets/logo_WEHC.svg)
 :::
 
-**The deadline for submissions has been extended to March 15th. Any communication regarding the previous deadline (January 31st) should be ignored.**
-
 The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.
 
-The theme for the 2025 Congress is "Equality and Sustainability Challenges." This theme underscores some of the pressing issues humanity faces today and draws connections to a diverse array of historical problems. To both understand and address these challenges, and to derive insights from the historical record, a range of perspectives is essential.
+The theme for the 2025 Congress is "Equality and Sustainability Challenges." This theme underscores some of the pressing issues humanity faces today and draws connections to a diverse array of historical problems. To both understand and address these challenges and to derive insights from the historical record, a range of perspectives is essential.
 
 We look forward to welcoming you to Lund in July 2025!
 
@@ -82,7 +80,7 @@ We look forward to welcoming you to Lund in July 2025!
 <!-- [Register](content/register.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"} -->
 [Propose a session](news/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
 [Propose a member association session](news/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"}
-
+[Preliminary Schedule](Preliminary_schedule.pdf){#btn-guide .btn-action .btn .btn-info role="button"}
 </div>
 
 
