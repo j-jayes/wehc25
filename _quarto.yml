@@ -18,7 +18,7 @@ website:
           - news/call-for-sessions.qmd
           - news/call-for-sessions-member-associations.qmd
       - href: "#"
-        text: "Test Button"  # The test button
+        text: "Preliminary Schedule"  # The test button
 
     right:
       - href: content/contact.qmd
