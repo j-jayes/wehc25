@@ -17,7 +17,7 @@ website:
           - news/call-for-dissertations.qmd
           - news/call-for-sessions.qmd
           - news/call-for-sessions-member-associations.qmd
-      - href: "#"
+      - href: /Preliminary_schedule.pdf
         text: "Preliminary Schedule"  # The test button
 
     right:
