@@ -2,6 +2,7 @@
 title: "{{< fa people-group >}} Call for sessions"
 format: html
 description: We have a particularly strong desire to attract sessions related to the theme `Equality and Sustainability Challenges`. However, submissions are welcome on the economic and social histories of all places and periods, and on the exploration of varied sources and methods, and on the theory and uses of economic history itself.
+date: 2023-09-13
 
 ---
 
