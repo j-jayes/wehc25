@@ -1,9 +1,9 @@
 ---
-title: "{{< fa solid clipboard >}} Coming to Lund"
+title: "{{< fa-solid fa-plane >}} Arriving in Lund"
 format: html
-description: "Have you started planning your visit?"
+description: "Have you started planning your trip?"
 date: 2024-09-29
 ---
 
-We have provided some information about the ways in which you can plan your visit to Lund. Please visit the [Travel info page](../content/travel_info.qmd) for more details.
+We have provided some information about how you can plan your visit to Lund. Please visit the [Travel info page](../content/travel_info.qmd) for more details.
 
