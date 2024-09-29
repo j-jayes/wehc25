@@ -6,6 +6,4 @@ page-layout: article
 toc: false
 ---
 
-## Organizing committee
-
-**Email:** [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se)
+Contact the organizing committee at [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se)
