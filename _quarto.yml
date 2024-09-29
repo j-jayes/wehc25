@@ -15,8 +15,8 @@ website:
         menu:
           - news/call-for-posters.qmd
           - news/call-for-dissertations.qmd
-          - news/call-for-sessions.qmd
-          - news/call-for-sessions-member-associations.qmd
+         # - news/call-for-sessions.qmd
+         # - news/call-for-sessions-member-associations.qmd
       - href: /Preliminary_schedule.pdf
         text: "Preliminary Schedule"  # The test button
 
