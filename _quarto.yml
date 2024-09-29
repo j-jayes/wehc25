@@ -22,9 +22,9 @@ website:
          # - news/call-for-posters.qmd
          # - news/call-for-dissertations.qmd
           - text: "Edit your session"
-          - href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
+          - href: https://www.appinconf.com/kas/Abstract?projectName=wehc2025
           - text: "Edit your session - member associations"
-          - href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"
+          - href: https://www.appinconf.com/kas/Abstract?projectName=wehc2025members
 
          # - content/call-for-sessions.qmd
          # - content/call-for-sessions-member-associations.qmd       
