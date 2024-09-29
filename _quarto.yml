@@ -21,8 +21,12 @@ website:
         menu:
          # - news/call-for-posters.qmd
          # - news/call-for-dissertations.qmd
-          - content/call-for-sessions.qmd
-          - content/call-for-sessions-member-associations.qmd       
+          - href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
+          - text: "Edit your session"
+          - href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"
+          - text: "Edit your session - member associations"
+         # - content/call-for-sessions.qmd
+         # - content/call-for-sessions-member-associations.qmd       
       - href: /Preliminary_schedule.pdf
         text: "Preliminary schedule" 
 
