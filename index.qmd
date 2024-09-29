@@ -10,7 +10,8 @@ listing:
   contents: news/*.qmd
   type: grid
   fields: [title, description]
-  sort-ui: false
+  sort: date desc
+  sort-ui: true
   filter-ui: false
 include-before-body:
   text: |
