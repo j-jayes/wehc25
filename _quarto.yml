@@ -17,7 +17,7 @@ website:
           - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
          # - news/call-for-sessions-member-associations.qmd
-        text: "Submission portal"
+      - text: "Submission portal"
         menu:
          # - news/call-for-posters.qmd
          # - news/call-for-dissertations.qmd
