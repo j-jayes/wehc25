@@ -1,5 +1,5 @@
 ---
-title: "{{< fa solid fa house >}} Information on accommodations"
+title: "{{< fa solid house >}} Information on accommodations"
 format: html
 description: "Learn the latest details on accommodations for the conference."
 date: 2024-09-29
