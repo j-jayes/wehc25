@@ -1,4 +1,3 @@
-
 ---
 title: ""
 page-layout: custom
@@ -43,7 +42,6 @@ include-before-body:
     </script>
 ---
 
-
 ::: {.hero-banner}
 
 ::: {.hero-image .hero-image-left}
@@ -53,7 +51,6 @@ include-before-body:
 ::: {.content-block}
 
 ## World Economic History Congress
-
 
 :::: {.columns .maven-style}
 ::: {.column width="40%"}
@@ -85,8 +82,7 @@ We look forward to welcoming you to Lund in July 2025!
 
 </div>
 
-
-::: 
+:::
 
 :::
 
@@ -95,6 +91,14 @@ We look forward to welcoming you to Lund in July 2025!
 :::
 
 :::
+
+<!-- Embedded Google Map -->
+<div style="width: 100%; height: 400px; margin-bottom: 20px;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1800.2023446976987!2d13.193020176022609!3d55.70537119564435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397c5652d60f7%3A0x1b08fde3cbce8eba!2sAF%20Borgen%20AB!5e1!3m2!1sen!2sse!4v1727614527871!5m2!1sen!2sse"
+    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
 
 <!-- Countdown Timer -->
 <div id="countdown">
@@ -108,12 +112,10 @@ We look forward to welcoming you to Lund in July 2025!
 
 ## {{< fa newspaper >}} News
 
-
 <!-- News -->
 ::: {#news-listing}
 :::
 :::
-
 
 ::: {.get-started .alt-background}
 ::: {.content-block}
@@ -126,8 +128,4 @@ Get in touch with the organizing committee [here](mailto:wehc2025@ekh.lu.se).
 #| fig-width: 2
 
 knitr::include_graphics("assets/logo_WEHC.svg")
-```
 
-:::
-
-:::
