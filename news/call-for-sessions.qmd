@@ -23,5 +23,5 @@ The session proposals should contain:
 - Description of the session’s aim, contribution, and relevance (max 5,000 characters with blanks)
 - Researchers invited to participate in the session, or those already confirmed, and their affiliations
 
- 
-The call for sessions will close on March 15, 2024. Sessions should be submitted via the portal at [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). **Please note that unlike in past years, there will be ONLY ONE call for sessions**. Decisions will be finalised in June 2024.
+
+The deadline for submissions is now closed. If you want to edit your submission, please, visit [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). If you have any further questions, message the organizing committee at wehc2025@ekh.lu.se.
