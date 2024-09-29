@@ -17,8 +17,14 @@ website:
           - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
          # - news/call-for-sessions-member-associations.qmd
+        text: "Submission portal"
+        menu:
+         # - news/call-for-posters.qmd
+         # - news/call-for-dissertations.qmd
+          - content/call-for-sessions.qmd
+          - content/call-for-sessions-member-associations.qmd       
       - href: /Preliminary_schedule.pdf
-        text: "Preliminary Schedule"  # The test button
+        text: "Preliminary schedule" 
 
     right:
       - href: content/contact.qmd
