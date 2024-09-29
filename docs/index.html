@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     const options = {
       valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -316,36 +316,20 @@ window.Quarto = {
 <h2><i class="fa-solid fa-newspaper" aria-label="newspaper"></i> News</h2>
 <!-- News -->
 <div id="listing-news-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-news-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1727609917407" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
-<a href="./news/call-for-sessions.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions
-</h5>
-<div class="card-text listing-description">
-We have a particularly strong desire to attract sessions related to the theme <code>Equality and Sustainability Challenges</code>. However, submissions are welcome on the economic and…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1727609917401" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
-<a href="./news/call-for-sessions-member-associations.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations
-</h5>
-<div class="card-text listing-description">
-As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727609917388" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1727610694863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <a href="./news/call-for-dissertations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -359,7 +343,7 @@ Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1727609917394" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1727610694870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
 <a href="./news/call-for-posters.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -368,6 +352,34 @@ Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 </h5>
 <div class="card-text listing-description">
 The Poster Exhibition enables scholars in Economic history to present their latest research projects. We kindly invite you to exhibit your ongoing work through the…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1727610694876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<a href="./news/call-for-sessions-member-associations.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<i class="fa-solid fa-people-roof" aria-label="people-roof"></i> Call for sessions: member associations
+</h5>
+<div class="card-text listing-description">
+As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1727610694882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<a href="./news/call-for-sessions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<i class="fa-solid fa-people-group" aria-label="people-group"></i> Call for sessions
+</h5>
+<div class="card-text listing-description">
+We have a particularly strong desire to attract sessions related to the theme <code>Equality and Sustainability Challenges</code>. However, submissions are welcome on the economic and…
 </div>
 </div>
 </div>
