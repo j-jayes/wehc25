@@ -1,5 +1,5 @@
 ---
-title: "Edit your submission"
+title: "Edit session - Member associations"
 format: html
 sidebar: false
 page-layout: article
