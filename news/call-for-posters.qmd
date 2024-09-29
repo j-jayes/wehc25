@@ -1,6 +1,7 @@
 ---
 title: "{{< fa solid clipboard >}} Call for posters"
 format: html
+description: "Invitation to submit posters for the WEHC 2025."
 date: 2024-09-18
 ---
 
