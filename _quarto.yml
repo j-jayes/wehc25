@@ -21,6 +21,9 @@ website:
         menu:
          # - news/call-for-posters.qmd
          # - news/call-for-dissertations.qmd
+
+          - href: "[Edit your session](https://www.appinconf.com/kas/Abstract?projectName=wehc2025members)"
+         
           - text: "Edit your session"
           - href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
           - text: "Edit your session - member associations"
@@ -31,7 +34,7 @@ website:
       - href: /Preliminary_schedule.pdf
         text: "Preliminary schedule" 
       - href: content/travel_info.qmd
-      - href: content/accomodations-qmd
+      - href: content/accommodations-qmd
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
