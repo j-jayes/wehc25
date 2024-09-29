@@ -1,5 +1,5 @@
 ---
-title: "{{< fa solid fa plane >}} Arriving in Lund"
+title: "{{< fa solid plane >}} Arriving in Lund"
 format: html
 description: "Have you started planning your trip?"
 date: 2024-09-29
