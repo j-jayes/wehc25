@@ -125,7 +125,10 @@ We look forward to welcoming you to Lund in July 2025!
 Get in touch with the organizing committee [here](mailto:wehc2025@ekh.lu.se).
 
 ```{r}
+<!--
 #| fig-width: 2
-
 knitr::include_graphics("assets/logo_WEHC.svg")
+-->
+
+![](assets/logo_WEHC.svg){width=50%}
 
