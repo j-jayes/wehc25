@@ -13,6 +13,7 @@ website:
         text: Home
       - text: "Calls"
         menu:
+          - news/participation_grant.qmd
           - news/call-for-posters.qmd
           - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
