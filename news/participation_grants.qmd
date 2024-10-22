@@ -1,5 +1,5 @@
 ---
-title: "{{< fa circle-info >}} Call for sessions"
+title: "{{< fa circle-info >}} Participation grants"
 format: html
 description: To promote participation from regions normally less represented at international scientific conferences, the 20th WEHC 2024 has set up a significant support scheme for scholars who have less access to funding than those from OECD countries.
 date: 2023-10-22
