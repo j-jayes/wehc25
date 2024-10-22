@@ -24,4 +24,4 @@ The session proposals should contain:
 - Researchers invited to participate in the session, or those already confirmed, and their affiliations
 
 
-The deadline for submissions is now closed. If you want to edit your submission, please, visit [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). If you have any further questions, message the organizing committee at wehc2025@ekh.lu.se.
+The deadline for submissions is now closed. If you want to edit your submission, please, visit [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025). If you have any further questions, message the organizing committee at [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se).
