@@ -5,6 +5,8 @@ description: As a new initiative, the IEHA invites session proposals from member
 date: 2023-09-13
 ---
 
+**The deadline for submissions is now closed. If you want to edit your submission, please, visit [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025members). If you have any further questions, message the organizing committee at [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se).**
+
 The 20th World Economic History Congress will convene from 28 July– August 2025 in Lund, Sweden. As a new initiative, the IEHA invites session proposals from member associations. Sessions can be on any area of economic and social history, but should aim to highlight work by scholars affiliated to member associations – whether those are defined thematically or geographically. 
 
 Association sessions allow our member organizations to showcase the work of their scholars in front of a global audience, engaging with new potential members. It also enables member organizations to host meetings without incurring the overhead costs of renting space or 
@@ -14,12 +16,9 @@ Other opportunities for member associations to publicise their activities at the
 
 The member society session proposals should contain:
 
-
 - Name of the member society proposing the session
 - Contact information
 - Title of the session
 - Description of the session’s aim, contribution, and relevance (max 5,000 characters with blanks)
 - Researchers invited to participate in the session, or those already confirmed, and their affiliations
 - Preferred date and time of the session
- 
-The deadline for submissions is now closed. If you want to edit your submission, please, visit [this link](https://www.appinconf.com/kas/Abstract?projectName=wehc2025members). If you have any further questions, message the organizing committee at [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se).
