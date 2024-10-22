@@ -12,6 +12,7 @@ listing:
   sort: date desc
   sort-ui: true
   filter-ui: false
+  page-size: 6
 include-before-body:
   text: |
     <script>
