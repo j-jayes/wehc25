@@ -28,7 +28,7 @@ website:
             href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
       - href: /Preliminary_schedule.pdf
         text: "Preliminary schedule" 
-      - href: content/travel_info.qmd
+      - href: news/travel_info.qmd
       - href: news/accommodations.qmd
       - href: news/participation-grants.qmd
     right:
