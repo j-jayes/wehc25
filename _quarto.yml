@@ -28,9 +28,9 @@ website:
             href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
       - href: /Preliminary_schedule.pdf
         text: "Preliminary schedule" 
-      - href: news/travel_info.qmd
-      - href: news/accommodations.qmd
-      - href: news/participation-grants.qmd
+      - href: content/travel_info.qmd
+      - href: content/accommodations.qmd
+      - href: content/participation-grants.qmd
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
