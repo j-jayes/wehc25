@@ -1,13 +1,13 @@
 ---
-title: "{{< fa book >}} Call for Book Sessions"
+title: "{{< fa book >}} Call for book sessions"
 format: html
 description: The WEHC is inviting scholars who recently have published a scholarly book with economic historical content, to present it at special book sessions during the congress.
 date: 2024-10-22
 ---
 
-The 20th World Economic History Congress is inviting you, who recently published a scholarly book with economic historical content, to present it at special book sessions during the congress in Lund 28 July – 1 August 2025. 
+The 20th World Economic History Congress is inviting you, who recently published a scholarly book with economic historical content, to present it at special book sessions during the congress in Lund from 28 July – 1 August 2025. 
 
-You are eligible to apply if you had or are planning a book release, monograph, or anthology, between 1 January 2022 and 28 July 2025; it must have materialised before the opening of the Congress. Each book will be given 40–45 minutes at the session, and you can as author choose between two formats: (1) Present the book yourself and then open for discussion or (2), engage a reviewer with whom you discuss the book and then open for general discussion. Note that if you choose (2), the organising committee will not provide a reviewer, it’s entirely up to you.
+You are eligible to apply if you had or are planning a book release, monograph, or anthology, between 1 January 2022 and 28 July 2025; it must have materialized before the opening of the Congress. Each book will be given 40–45 minutes at the session, and you can as an author choose between two formats: (1) Present the book yourself and then open it for discussion or (2), engage a reviewer with whom you discuss the book and then open for general discussion. Note that if you choose (2), the organizing committee will not provide a reviewer, it’s entirely up to you.
 
 Apply to participate by sending an email to [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se). Enter "Book session" in the subject box. The mail must state your name, affiliation, the title of the book, the publisher, and when it was or is to be published.
 
