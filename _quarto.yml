@@ -30,7 +30,7 @@ website:
         text: "Preliminary schedule" 
       - href: content/travel_info.qmd
       - href: content/accommodations.qmd
-      - href: content/participation-grants.qmd
+      - href: news/participation-grants.qmd
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
