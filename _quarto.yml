@@ -13,7 +13,7 @@ website:
         text: Home
       - text: "Calls"
         menu:
-          - news/participation_grants.qmd
+          - news/call-for-book-sessions.qmd
           - news/call-for-posters.qmd
           - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
@@ -30,6 +30,7 @@ website:
         text: "Preliminary schedule" 
       - href: content/travel_info.qmd
       - href: content/accommodations.qmd
+      - href: content/participation-grants.qmd
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
