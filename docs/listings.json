@@ -2,11 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/news/participation_grants.html",
       "/news/accommodations.html",
       "/news/planning_trip.html",
       "/news/call-for-dissertations.html",
       "/news/call-for-posters.html",
+      "/news/participation_grants.html",
       "/news/call-for-sessions-member-associations.html",
       "/news/call-for-sessions.html"
     ]
