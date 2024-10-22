@@ -1,5 +1,5 @@
 ---
-title: "{{< fa readme >}} Call for dissertations"
+title: "{{< fa-readme >}} Call for dissertations"
 format: html
 description: Invitation to Best Dissertation Prize Sessions at WEHC 2025.
 date: 2024-09-18
