@@ -1,10 +1,10 @@
 ---
-title: "{{< fa brands address card >}} Registration"
+title: "{{< fa address card >}} Registration"
 format: html
-description: Registration to the WEHC 2025 is now open!.
+description: Registration to the WEHC 2025 is now open!
 date: 2024-10-29
-
 ---
+
 **You can register for the WEHC by clicking [here](https://registration.invajo.com/53381b6c-69cf-43db-9688-47716a910d90?page=b9fd1835-a58b-4fda-85a3-de6548dec209).**
 
 When you register, the fees will first appear without 25% VAT, which will be added later during the registration process. The table below presents the approximate prices with VAT and the deadlines for Early Bird and Regular fees.
