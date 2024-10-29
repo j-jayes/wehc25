@@ -1,18 +1,46 @@
-Welcome to the WEHC registration page. You can register for the WEHC by clicking [here](https://registration.invajo.com/53381b6c-69cf-43db-9688-47716a910d90?page=b9fd1835-a58b-4fda-85a3-de6548dec209) 
+** Welcome to the WEHC registration page. You can register for the WEHC by clicking [here](https://registration.invajo.com/53381b6c-69cf-43db-9688-47716a910d90?page=b9fd1835-a58b-4fda-85a3-de6548dec209) **
 
 When you register, the fees will first appear without 25% VAT, which will be added later during the registration process. In the table below the approximate prices with VAT are presented, together with the deadlines for Early Bird and Regular fees.
 
-| Category                     | When?                    | Fee (SEK), including VAT 25% | Approx. (€), depending on exchange rate |
-|------------------------------|--------------------------|------------------------------|-----------------------------------------|
-| **Participants fees (early bird)** | Before 1 February        | 4,100                        | 360                                     |
-| **Participants fees (regular)**    | 1 February – 30 April    | 4,800                        | 420                                     |
-| **Participants fees (late)**       | 1 May and after          | 5,500                        | 480                                     |
-| **Student fees (early bird)**      | Before 1 February        | 2,100                        | 180                                     |
-| **Student fees (regular)**         | 1 February – 30 April    | 2,400                        | 210                                     |
-| **Student fees (late)**            | 1 May and after          | 2,800                        | 240                                     |
-|                                    |                          |                              |                                         |
-| **Welcome reception, food and drinks** | -                      | 170                          | 15                                      |
-| **Congress reception, food and drinks** | -                    | 170                          | 15                                      |
-| **Lunches, each**                  | -                        | 150                          | 13                                      |
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #e9e9e9;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+.right-align {
+    text-align: right;
+}
+.center-align {
+    text-align: center;
+}
+</style>
 
-
+| Category                         | When?                    | Fee (SEK), including VAT 25% | Approx. (€), depending on exchange rate |
+|----------------------------------|--------------------------|------------------------------|-----------------------------------------|
+| **Participants fees (early bird)** | <div class="center-align">Before 1 February</div> | <div class="right-align">4,100</div> | <div class="right-align">360</div> |
+| **Participants fees (regular)**    | <div class="center-align">1 February – 30 April</div> | <div class="right-align">4,800</div> | <div class="right-align">420</div> |
+| **Participants fees (late)**       | <div class="center-align">1 May and after</div> | <div class="right-align">5,500</div> | <div class="right-align">480</div> |
+| **Student fees (early bird)**      | <div class="center-align">Before 1 February</div> | <div class="right-align">2,100</div> | <div class="right-align">180</div> |
+| **Student fees (regular)**         | <div class="center-align">1 February – 30 April</div> | <div class="right-align">2,400</div> | <div class="right-align">210</div> |
+| **Student fees (late)**            | <div class="center-align">1 May and after</div> | <div class="right-align">2,800</div> | <div class="right-align">240</div> |
+| **Welcome reception, food and drinks** | -                     | <div class="right-align">170</div> | <div class="right-align">15</div> |
+| **Congress reception, food and drinks** | -                   | <div class="right-align">170</div> | <div class="right-align">15</div> |
+| **Lunches, each**                  | -                        | <div class="right-align">150</div> | <div class="right-align">13</div> |
