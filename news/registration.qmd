@@ -1,7 +1,6 @@
 ---
-title: "{{< fa address card >}} Registration"
+title: "{{< fa address card >}} Registration to the WEHC 2025 is now open!"
 format: html
-description: Registration to the WEHC 2025 is now open!
 date: 2024-10-29
 ---
 
