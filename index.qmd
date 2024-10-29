@@ -65,7 +65,7 @@ Lund, Sweden
 ![](assets/logo_WEHC.svg)
 :::
 
-<div style="text-align: center;">
+<div>
   **Registration is now open. Click [here](content/registration.qmd) to register**
 </div>
 
