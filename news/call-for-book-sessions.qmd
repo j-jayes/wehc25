@@ -1,7 +1,7 @@
 ---
 title: "{{< fa book >}} Call for book sessions"
 format: html
-description: The WEHC is inviting scholars to present it at special book sessions during the congress.
+description: The WEHC is inviting scholars to present at special book sessions during the congress.
 date: 2024-10-22
 ---
 
