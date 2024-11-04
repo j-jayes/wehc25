@@ -197,15 +197,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-/* Center container and prevent horizontal scroll */
+/* Center container and add a slight left indentation */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Maintain card width */
   gap: 20px;
   padding: 10px;
   max-width: 1200px; /* Constrain maximum width */
-  margin: 0 auto; /* Center container */
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  margin-left: auto; /* Center container with slight left alignment */
+  margin-right: auto; /* Center container */
+  padding-left: 30px; /* Extra padding for left indentation */
 }
 
 /* Ensuring responsiveness for smaller screens */
@@ -231,6 +232,13 @@ ul.task-list li input[type="checkbox"] {
   transform: scale(1.02);
 }
 
+/* Speaker photo styling */
+.speaker-photo {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
 /* Speaker name styling */
 .speaker-name {
   font-size: 1.15em; /* Slightly smaller font size */
@@ -250,12 +258,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <div class="container">
 <div class="speaker-card">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/EvMN.jpg" class="img-fluid figure-img" alt="Elise van Nederveen Meerkerk"></p>
-<figcaption>Elise van Nederveen Meerkerk</figcaption>
-</figure>
-</div>
+<img src="assets/EvMN.jpg" alt="Elise van Nederveen Meerkerk" class="speaker-photo">
 <div class="speaker-name">
 Elise van Nederveen Meerkerk
 </div>
@@ -267,12 +270,7 @@ Elise van Nederveen Meerkerk is a professor of economic and social history and c
 </p>
 </div>
 <div class="speaker-card">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/MRV.jpg" class="img-fluid figure-img" alt="Mar Rubio-Varas"></p>
-<figcaption>Mar Rubio-Varas</figcaption>
-</figure>
-</div>
+<img src="assets/MRV.jpg" alt="Mar Rubio-Varas" class="speaker-photo">
 <div class="speaker-name">
 Mar Rubio-Varas
 </div>
@@ -284,12 +282,7 @@ Mar Rubio-Varas is a Professor of History and Economic Institutions at Universid
 </p>
 </div>
 <div class="speaker-card">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/CAH.jpg" class="img-fluid figure-img" alt="César A. Hidalgo"></p>
-<figcaption>César A. Hidalgo</figcaption>
-</figure>
-</div>
+<img src="assets/CAH.jpg" alt="César A. Hidalgo" class="speaker-photo">
 <div class="speaker-name">
 César A. Hidalgo
 </div>
