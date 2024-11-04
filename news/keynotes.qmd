@@ -12,9 +12,8 @@ date: 2024-11-04
   grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Increased min-width for cards */
   gap: 20px;
   padding: 10px;
-  max-width: 1000px; /* Reduced max width */
   margin-left: 0; /* Align container to the left */
-  padding-left: 10px; /* Small padding to prevent cards from touching the edge */
+  padding-left: 20px; /* Extra padding for left indentation */
 }
 
 /* Ensuring responsiveness for smaller screens */
@@ -89,4 +88,3 @@ date: 2024-11-04
 </div>
 
 </div>
-
