@@ -9,17 +9,17 @@ date: 2024-11-04
 /* Container for the cards */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Increased min-width for cards */
+  grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Keep the card layout */
   gap: 20px;
   padding: 10px;
-  margin-left: 0; /* Align container to the left */
-  padding-left: 20px; /* Extra padding for left indentation */
+  margin-left: -50px; /* Shift the entire container to the left */
 }
 
 /* Ensuring responsiveness for smaller screens */
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
+    margin-left: 0; /* Reset left margin for mobile */
   }
 }
 
