@@ -9,7 +9,7 @@ date: 2024-11-04
 /* Container for the cards */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Increased min-width for cards */
   gap: 20px;
   padding: 10px;
 }
@@ -28,7 +28,7 @@ date: 2024-11-04
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s;
-  max-width: 400px; /* Limit max width for larger screens */
+  max-width: 450px; /* Further increased max width */
   margin: 0 auto; /* Center the cards within the container */
 }
 
@@ -46,7 +46,7 @@ date: 2024-11-04
 
 /* Speaker name styling */
 .speaker-name {
-  font-size: 1.3em;
+  font-size: 1.15em; /* Slightly smaller font size */
   margin-top: 10px;
   font-weight: bold;
 }
@@ -55,6 +55,7 @@ date: 2024-11-04
 .keynote-title {
   font-style: italic;
   color: #555;
+  font-size: 1em; /* Reduced font size for long titles */
   margin: 10px 0;
 }
 </style>
