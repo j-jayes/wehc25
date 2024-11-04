@@ -200,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 /* Container for the cards */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 20px;
   padding: 10px;
 }
@@ -219,6 +219,8 @@ ul.task-list li input[type="checkbox"] {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s;
+  max-width: 400px; /* Limit max width for larger screens */
+  margin: 0 auto; /* Center the cards within the container */
 }
 
 /* Hover effect */
