@@ -1,7 +1,7 @@
 ---
 title: "{{< fa microphone >}} Keynote speakers"
 format: html
-description: "Meet the WEHC 2025 keynote speakers!"
+description: Keynote speakers revealed!
 date: 2024-11-04
 ---
 
@@ -41,7 +41,7 @@ date: 2024-11-04
 
 /* Speaker photo styling */
 .speaker-photo {
-  width: 100%;
+  width: 100%; /* Ensure image spans the width of the card */
   border-radius: 5px;
   margin-bottom: 15px;
 }
