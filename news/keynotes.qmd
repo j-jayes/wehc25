@@ -1,7 +1,7 @@
 ---
 title: "{{< fa microphone >}} Keynote speakers"
 format: html
-description: Keynote speakers revealed!
+description: "Meet the WEHC 2025 keynote speakers!"
 date: 2024-11-04
 ---
 
