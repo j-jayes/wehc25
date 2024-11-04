@@ -6,12 +6,15 @@ date: 2024-11-04
 ---
 
 <style>
-/* Container for the cards */
+/* Center container and prevent horizontal scroll */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Increased min-width for cards */
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
   gap: 20px;
   padding: 10px;
+  max-width: 1200px; /* Constrain maximum width */
+  margin: 0 auto; /* Center container */
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Ensuring responsiveness for smaller screens */
@@ -28,8 +31,8 @@ date: 2024-11-04
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s;
-  max-width: 450px; /* Further increased max width */
-  margin: 0 auto; /* Center the cards within the container */
+  max-width: 400px; /* Set a max width for larger screens */
+  margin: 0 auto; /* Center each card within its grid column */
 }
 
 /* Hover effect */
