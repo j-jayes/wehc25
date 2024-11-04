@@ -5,14 +5,72 @@ description: Keynote speakers revealed!
 date: 2024-11-04
 ---
 
-Elise van Nederveen Meerkerk is a professor of economic and social history and chair of the Economic and Social History group at Utrecht University, The Netherlands. She specializes in Global Labour History, with a focus on gendered and colonial labour relations. Apart from journal articles in Feminist Economics, Economic History Review, and the European Review of Economic History, Elise published a monograph entitled Women, Work and Colonialism in the Netherlands and Java. Comparisons, Contrasts, Connections, 1830-1940 (Palgrave Macmillan, 2019). She was PI of the EU-funded ERC Consolidator research project “Race to the Bottom? Family Labour, Household Livelihood and Consumption in the Relocation of Global Cotton Manufacturing, ca. 1750-1990”. Currently, Elise is developing a new research project on coerced labour in the Dutch Empire. At WEHC 2025, Professor van Nederveen Meerkerk will give a keynote with the title Work, Gender, Race and Class: Towards Intersectional Political Economics?
+<style>
+/* Container for the cards */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
 
-![Elise van Nederveen Meerkerk](assets/EvNM.jpeg)
+/* Styling each speaker card */
+.speaker-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
 
-Mar Rubio-Varas is a Professor of History and Economic Institutions at Universidad Publica de Navarra (UPNA, Spain), She specializes in the long-term relationships between energy consumption and the economy, focusing on energy dependency and transitions to low-carbon economies. She holds a PhD and Master’s from the London School of Economics and a degree in Economics from Carlos III University. Rubio-Varas leads a team researching the take-off of renewable industry in Navarra and other European regions and her research includes directing multiple EU-funded projects. Her recent publications include articles in, Ecological Economics, the Journal of Contemporary History, Energy Journal, Energy Policy, Economic History Review and European Review of Economic History. Among her publications is a book on the Spanish nuclear sector (Palgrave MacMillan, 2017). At WEHC 2025, Professor Rubio-Varas will give a keynote with the title Greening the Past, Informing the Future: Economic History's Dual Role in Sustainability Challenges.
+/* Hover effect */
+.speaker-card:hover {
+  transform: scale(1.02);
+}
 
-![Mar Rubio-Varas](assets/MRV.jpeg)
+/* Speaker photo styling */
+.speaker-photo {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
 
-César A. Hidalgo is known for his contributions to economic complexity and for his applied work on data visualization and artificial intelligence. Hidalgo is a tenured professor at the Toulouse School of Economics’ Department of Social and Behavioral Sciences and the head of the Center for Collective Learning a multidisciplinary research laboratory. He is also an Honorary Professor at the Alliance Manchester Business School of the University of Manchester. Hidalgo’s contributions have been recognized with numerous awards, including the 2018 Lagrange Prize and three Webby Awards. Hidalgo's has authored dozens of peer-reviewed papers and of three books: Why Information Grows (Basic Books, 2015), The Atlas of Economic Complexity (MIT Press, 2014), and How Humans Judge Machines (MIT Press, 2021). His next book, The Infinite Alphabet (Penguin-Random House, 2025) is scheduled for the summer of 2025. At WEHC 2025, Professor Hidalgo will give a keynote with the title Big Data and Machine Learning Explorations of Economic History and Collective Memory.
+/* Speaker name styling */
+.speaker-name {
+  font-size: 1.3em;
+  margin-top: 10px;
+  font-weight: bold;
+}
 
-![César A. Hidalgo](assets/CAH.jpeg)
+/* Keynote title styling */
+.keynote-title {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+}
+</style>
+
+<div class="container">
+
+<div class="speaker-card">
+  <img src="assets/EvNM.jpeg" alt="Elise van Nederveen Meerkerk" class="speaker-photo">
+  <div class="speaker-name">Elise van Nederveen Meerkerk</div>
+  <div class="keynote-title">Work, Gender, Race and Class: Towards Intersectional Political Economics?</div>
+  <p>Elise van Nederveen Meerkerk is a professor of economic and social history and chair of the Economic and Social History group at Utrecht University, The Netherlands. She specializes in Global Labour History, with a focus on gendered and colonial labour relations. Apart from journal articles in <em>Feminist Economics, Economic History Review</em>, and the <em>European Review of Economic History</em>, Elise published a monograph entitled <em>Women, Work and Colonialism in the Netherlands and Java</em>. She was PI of the EU-funded ERC Consolidator research project “Race to the Bottom? Family Labour, Household Livelihood and Consumption in the Relocation of Global Cotton Manufacturing, ca. 1750-1990”. Currently, Elise is developing a new research project on coerced labour in the Dutch Empire.</p>
+</div>
+
+<div class="speaker-card">
+  <img src="assets/MRV.jpeg" alt="Mar Rubio-Varas" class="speaker-photo">
+  <div class="speaker-name">Mar Rubio-Varas</div>
+  <div class="keynote-title">Greening the Past, Informing the Future: Economic History's Dual Role in Sustainability Challenges</div>
+  <p>Mar Rubio-Varas is a Professor of History and Economic Institutions at Universidad Publica de Navarra (UPNA, Spain). She specializes in the long-term relationships between energy consumption and the economy, focusing on energy dependency and transitions to low-carbon economies. She holds a PhD and Master’s from the London School of Economics and a degree in Economics from Carlos III University. Rubio-Varas leads a team researching the take-off of renewable industry in Navarra and other European regions and her research includes directing multiple EU-funded projects. Among her publications is a book on the Spanish nuclear sector (Palgrave MacMillan, 2017).</p>
+</div>
+
+<div class="speaker-card">
+  <img src="assets/CAH.jpeg" alt="César A. Hidalgo" class="speaker-photo">
+  <div class="speaker-name">César A. Hidalgo</div>
+  <div class="keynote-title">Big Data and Machine Learning Explorations of Economic History and Collective Memory</div>
+  <p>César A. Hidalgo is known for his contributions to economic complexity and for his applied work on data visualization and artificial intelligence. Hidalgo is a tenured professor at the Toulouse School of Economics’ Department of Social and Behavioral Sciences and the head of the Center for Collective Learning. Hidalgo's contributions have been recognized with numerous awards, including the 2018 Lagrange Prize and three Webby Awards. He has authored dozens of peer-reviewed papers and three books: <em>Why Information Grows</em>, <em>The Atlas of Economic Complexity</em>, and <em>How Humans Judge Machines</em>.</p>
+</div>
+
+</div>
