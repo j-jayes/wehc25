@@ -1,5 +1,5 @@
 ---
-title: "{{< fa brands readme >}} Keynote speakers"
+title: "{{< fa people >}} Keynote speakers"
 format: html
 description: Keynote speakers revealed!
 date: 2024-11-04
