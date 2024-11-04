@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><i class="fa-solid fa-people" aria-label="people"></i> Keynote speakers</h1>
+<h1 class="title"><i class="fa-solid fa-microphone" aria-label="microphone"></i> Keynote speakers</h1>
 </div>
 
 <div>
@@ -200,9 +200,16 @@ ul.task-list li input[type="checkbox"] {
 /* Container for the cards */
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 10px;
+}
+
+/* Ensuring responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Styling each speaker card */
@@ -242,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <div class="container">
 <div class="speaker-card">
-<img src="assets/EvNM.jpeg" alt="Elise van Nederveen Meerkerk" class="speaker-photo">
+<img src="assets/EvNM.jpg" alt="Elise van Nederveen Meerkerk" class="speaker-photo">
 <div class="speaker-name">
 Elise van Nederveen Meerkerk
 </div>
@@ -254,7 +261,7 @@ Elise van Nederveen Meerkerk is a professor of economic and social history and c
 </p>
 </div>
 <div class="speaker-card">
-<img src="assets/MRV.jpeg" alt="Mar Rubio-Varas" class="speaker-photo">
+<img src="assets/MRV.jpg" alt="Mar Rubio-Varas" class="speaker-photo">
 <div class="speaker-name">
 Mar Rubio-Varas
 </div>
@@ -266,7 +273,7 @@ Mar Rubio-Varas is a Professor of History and Economic Institutions at Universid
 </p>
 </div>
 <div class="speaker-card">
-<img src="assets/CAH.jpeg" alt="César A. Hidalgo" class="speaker-photo">
+<img src="assets/CAH.jpg" alt="César A. Hidalgo" class="speaker-photo">
 <div class="speaker-name">
 César A. Hidalgo
 </div>
