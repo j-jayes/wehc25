@@ -29,8 +29,8 @@ When you register, the fees will first appear without 25% VAT, which will be add
 
 | Category                         | When?                    | Fee (SEK), including VAT 25% | Approx. (€), depending on exchange rate |
 |----------------------------------|--------------------------|------------------------------|-----------------------------------------|
-| **Participants fees (early bird)** | Before 1 February        | 4,100                        | 360                                     |
-| **Participants fees (regular)**    | 1 February – 30 April    | 4,800                        | 420                                     |
+| **Participants fees (early bird)** | Before 15 February        | 4,100                        | 360                                     |
+| **Participants fees (regular)**    | 15 February – 30 April    | 4,800                        | 420                                     |
 | **Participants fees (late)**       | 1 May and after          | 5,500                        | 480                                     |
 | **Student fees (early bird)**      | Before 1 February        | 2,100                        | 180                                     |
 | **Student fees (regular)**         | 1 February – 30 April    | 2,400                        | 210                                     |
