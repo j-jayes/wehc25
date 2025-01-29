@@ -1,5 +1,5 @@
 ---
-title: "{{< fa circle-info >}} Just a kind reminder..."
+title: "{{< fa triangle-exclamation >}} Just a kind reminder..."
 format: html
 description: ...be an early bird!
 date: 2025-01-29
@@ -17,6 +17,9 @@ Additionally, we would like to remind you that February 15th is the deadline for
 If you have any additional questions or need further assistance, please feel free to contact us at [wehc2025@ekh.lu.se](mailto:wehc2025@ekh.lu.se). We look forward to welcoming you to Lund in 2025!
 
 On behalf of the WEHC 2025 Organizing Committee
+
 Igor Martins
+
 Senior Lecturer
+
 Department of Economic History, Lund University
