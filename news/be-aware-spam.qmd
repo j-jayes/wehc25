@@ -1,0 +1,28 @@
+---
+title: "{{< fa exclamation-circle >}} Important Notice"
+format: html
+description: Beware of Potential Spam Emails!
+date: 2025-01-29
+
+---
+
+# Important Notice: Beware of Potential Spam Emails  
+
+It has come to our attention that some participants may have received an email from an address such as **support@g-travelexperts.com**, claiming to arrange accommodation for the World Economic History Congress 2025 in Lund this July.  
+
+We would like to inform all participants that this email is **not associated** with the World Economic History Congress 2025 or any of its official arrangements. This is likely a spam or phishing attempt.  
+
+To protect yourself, we strongly advise:  
+
+- **Do not reply to such emails.**  
+- **Avoid clicking on any links or providing personal information.**  
+- **Mark the email as spam and delete it immediately.**  
+
+Please note that all official communication regarding the Congress, including accommodation arrangements, will come directly from our organizing team via our official email address: **wehc2025@ekh.lu.se**.  
+
+If you have any concerns or questions, please contact us at **wehc2025@ekh.lu.se** or reach out to Igor Martins, Senior Lecturer, at **igor.martins@ekh.lu.se**.  
+
+We encourage participants to share this information with their networks to ensure that everyone is aware of this issue.  
+
+Thank you for your cooperation and understanding,  
+Igor Martins, on behalf of the WEHC 2025 organizing committee
