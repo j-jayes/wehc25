@@ -25,7 +25,6 @@ jobs:
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      # Cache R packages (Updated to v4)
       - name: Cache R packages
         uses: actions/cache@v4
         with:
@@ -34,16 +33,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-R-
 
-      # Install R packages (only installs packages if not cached)
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos="https://cran.rstudio.com")'
 
-      # Render the Quarto project
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
-      # Commit and push changes back to the repository
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
@@ -51,12 +47,14 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || git commit -m "rerender site"
 
-      # Fix: Use a maintained GitHub Action for pushing changes
       - name: Push changes
         uses: actions-x/commit@v6
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+          force: true
+
+
 
       # Optional publishing step (uncomment for GitHub Pages or Netlify)
       # - name: Publish to GitHub Pages
