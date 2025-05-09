@@ -28,6 +28,7 @@ When you register, the fees will first appear without 25% VAT, which will be add
 | **Student fees (early bird)**      | Until 15 February        | 2,100                        | 180                                     |
 | **Student fees (regular)**         | 16 February – 1 May    | 2,400                        | 210                                     |
 | **Student fees (late)**            | 2 May - 2 June          | 2,800                        | 240                                     |
+| **Online participation**            | Always open         | 1,600                        | 145                                     |
 | **Welcome reception, food and drinks** | -                     | 170                          | 15                                      |
 | **Congress reception, food and drinks** | -                   | 170                          | 15                                      |
 | **Lunches, each**                  | -                        | 150                          | 13                                      |
