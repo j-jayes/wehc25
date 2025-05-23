@@ -65,7 +65,7 @@ Loading...
 
 ## 🏛️ Daily Free Cultural Offerings {#daily-free-cultural-offerings-28-july--1-august}
 
-<details open>
+<details>
 <summary style="font-size: 1.1em; font-weight: bold; cursor: pointer;">Click to view museums open to all participants</summary>
 
 ### Kulturen Open-Air Museum  
@@ -90,11 +90,27 @@ Loading...
 
 ## 🌿 Additional Local Highlights {#additional-local-highlights}
 
-<details>
-<summary style="font-size: 1.1em; font-weight: bold; cursor: pointer;">Click to view recommendations for independent exploration</summary>
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
 
-- **Lund Cathedral:** Romanesque cathedral from the 12th century.  
-- **Botanical Gardens:** Free-entry garden close to the conference venue.  
-- **Streets of Lund:** Explore the cobbled streets, historic houses, and independent shops.
+  <!-- Lund Cathedral -->
+  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Lund_domkyrka_2005.jpg" alt="Lund Cathedral" style="width: 100%; border-radius: 6px;">
+    <h3 style="margin-top: 0.8rem;">Lund Cathedral</h3>
+    <p>A Romanesque masterpiece from the 12th century. Explore the crypt, admire the astronomical clock, and experience one of Scandinavia's most iconic sacred spaces.</p>
+  </div>
 
-</details>
+  <!-- Botanical Gardens -->
+  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Botaniska_tr%C3%A4dg%C3%A5rden_Lund_2012e.jpg/1024px-Botaniska_tr%C3%A4dg%C3%A5rden_Lund_2012e.jpg" alt="Botanical Gardens" style="width: 100%; border-radius: 6px;">
+    <h3 style="margin-top: 0.8rem;">Botanical Gardens</h3>
+    <p>Free to visit and home to over 7,000 species, the Botanical Gardens offer a tranquil retreat within walking distance from the conference venues.</p>
+  </div>
+
+  <!-- Streets of Lund -->
+  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kattesund_Lund_2008b.jpg/1024px-Kattesund_Lund_2008b.jpg" alt="Streets of Lund" style="width: 100%; border-radius: 6px;">
+    <h3 style="margin-top: 0.8rem;">Streets of Lund</h3>
+    <p>Cobbled alleys, colourful facades, academic courtyards, and cosy cafés — perfect for a slow afternoon exploration without a fixed itinerary.</p>
+  </div>
+
+</div>
