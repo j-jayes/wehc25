@@ -1,65 +1,104 @@
 ---
 title: "Cultural Program"
 format: html
+toc: true
 ---
 
-Lund is one of Sweden’s oldest cities, rich in history, culture, and tradition. During the congress, participants are invited to take part in a curated cultural program to experience the historical and cultural depth of the region.
+Lund is one of Sweden’s oldest cities, rich in history, culture, and tradition. During the congress (28 July – 1 August 2025), participants are invited to join a curated cultural program to experience the historical and cultural depth of the region.
 
 ---
 
-## Special Cultural Events
+## Monday, 28 July
 
-### Tuesday, 29 July – Guided City Walk of Lund
+No special events are scheduled. Participants are encouraged to explore the **daily free cultural offerings** listed below.
+
+---
+
+## Tuesday, 29 July
+
+### Guided City Walk of Lund
 - **Time:** 18:00–19:30  
-- **Meeting Point:** Outside AF-Borgen, the main conference venue  
-- Join a guided walking tour through the medieval streets of Lund. Discover the city’s thousand-year-old history, including Lund Cathedral, university buildings, and hidden gems.  
-- *Pre-registration required, limited spaces, fee SEK 80*
+- **Meeting Point:** Outside AF-Borgen (main conference venue)  
+- A walking tour through Lund’s medieval streets. Includes Lund Cathedral, university landmarks, and historical sites.  
+- *Pre-registration required. Limited spaces. Fee: SEK 80*
 
-### Thursday, 31 July – Guided City Walk of Lund
+---
+
+## Wednesday, 30 July
+
+No special events are scheduled. See below for free museum visits and suggestions for independent exploration.
+
+---
+
+## Thursday, 31 July
+
+### Guided City Walk of Lund (Second Route)
 - **Time:** 18:00–19:30  
-- **Meeting Point:** Outside AF-Borgen, the main conference venue  
-- A second chance to join the popular city walk! Routes may vary slightly from Tuesday to give a broader perspective on Lund’s heritage.  
-- *Pre-registration required, limited spaces, fee SEK 80*
+- **Meeting Point:** Outside AF-Borgen (main conference venue)  
+- A second walking tour featuring an alternative route to showcase different aspects of Lund’s heritage.  
+- *Pre-registration required. Limited spaces. Fee: SEK 80*
 
-### Thursday, 31 July – Guided Tour: Museum of Artistic Process and Public Art (Skissernas Museum)
+### Guided Tour: Skissernas Museum (Museum of Artistic Process and Public Art)
 - **Time:** 18:00–19:00  
 - **Location:** Finngatan 2, Lund  
-- The tour focuses on creative processes and public art, and how both the museum's architecture and art collection have evolved over 90 years. We look at works in both the permanent and temporary exhibitions.  
-- *Pre-registration required, limited spaces, fee SEK 100*
-
-### Friday, 1 August – Archaeological Experience at Uppåkra
-- **Time:** 09:00–12:00 (approximate)  
-- **Location:** Uppåkra Archaeological Centre (transport from the meeting point in central Lund 09:00 TBA)  
-- Explore one of the most significant Viking and Iron Age sites in Northern Europe! Includes:  
-  - Guided tour of the archaeological site  
-  - Optional hands-on digging experience with archaeologists  
-  - Comfortable shoes and weather-appropriate clothing are recommended.  
-- *Pre-registration required, limited spaces; fee SEK 280*
+- Explore how public art is created, curated, and installed. Includes discussion of the museum’s architecture and changing exhibitions.  
+- *Pre-registration required. Limited spaces. Fee: SEK 100*
 
 ---
 
-## Daily Cultural Offerings (28 July – 1 August)
+## Friday, 1 August
+
+### Archaeological Experience at Uppåkra
+- **Time:** 09:00–12:00 (approximate)  
+- **Location:** Uppåkra Archaeological Centre (transport from central Lund at 09:00, exact location TBA)  
+- Visit one of the most important Viking and Iron Age sites in Scandinavia. Includes:
+  - Guided tour of the archaeological grounds  
+  - Optional hands-on excavation experience with archaeologists  
+  - Note: Wear comfortable shoes and bring weather-appropriate clothing  
+- *Pre-registration required. Limited spaces. Fee: SEK 280*
+
+### WEHC Fun Run
+- **Time:** Meet at 16:45 for a 17:00 start  
+- **Meeting Point:** AF-Borgen (main conference venue)  
+- **Route:** A scenic 6km social run through northern Lund, past Sankt Hans Backar park, ending at Inferno bar.  
+- **Post-run:** Cool down and socialize at Inferno. All levels welcome.  
+- **Registration:** Required via the form below. The route will be marked, with volunteers at the front and back.  
+
+#### 📍 Route Map
+<iframe src="https://onthegomap.com/?m=r&u=km&d=6000&f=04fcaea033&context=share" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">
+Loading...
+</iframe>
+
+#### 📝 Registration Form
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecQ0ZsTJzPOKtmsfn1QZr5M5kYpgysQ18dcec0K58ysuNbVA/viewform?usp=dialog" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">
+Loading...
+</iframe>
+
+---
+
+## Daily Free Cultural Offerings (28 July – 1 August)
 
 ### Kulturen Open-Air Museum
 - **Location:** Tegnérsplatsen 6, Lund  
-- **Open daily**  
-- **Free Admission for WEHC participants**  
-- Explore Sweden’s cultural heritage in one of the country’s oldest open-air museums. Historic buildings, exhibitions, and beautiful gardens.
+- **Opening Hours:** Daily  
+- **Admission:** Free for WEHC participants  
+- One of Sweden’s oldest open-air museums. Historic buildings, exhibitions, and gardens.
 
-### Museum of Artistic Process and Public Art (Skissernas Museum)
+### Skissernas Museum
 - **Location:** Finngatan 2, Lund  
-- **Open Tuesday–Sunday 11.00–17.00**  
-- **Free Admission for WEHC participants**  
-- The world's largest collection of sketches and models for Swedish and international public art.
+- **Opening Hours:** Tuesday–Sunday 11:00–17:00  
+- **Admission:** Free for WEHC participants  
+- The world’s largest collection of preparatory art for public installations.
 
-### Historiska Museet (Historical Museum at Lund University)
+### Historiska Museet (Lund University Historical Museum)
 - **Location:** Krafts torg 1, Lund (next to Lund Cathedral)  
-- **Open Tuesday–Sunday 12.00–17.00**  
-- **Free Admission for WEHC participants**  
-- Features medieval artefacts, archaeological finds, and university history. Self-guided visits are recommended.
+- **Opening Hours:** Tuesday–Sunday 12:00–17:00  
+- **Admission:** Free for WEHC participants  
+- Features archaeological and medieval collections, plus exhibits on Lund University’s history.
 
 ---
 
-## Additional Suggestions
-- **Lund Cathedral:** A must-see Romanesque cathedral from the 1100s.  
-- **Botanical Gardens:** Free entrance, beautiful walking area close to the conference venues.
+## Additional Local Highlights
+
+- **Lund Cathedral:** Romanesque cathedral from the 12th century. Free and central.  
+- **Botanical Gardens:** Open daily, free entrance. Excellent for a relaxing walk near the conference venues.
