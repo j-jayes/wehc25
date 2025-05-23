@@ -7,6 +7,8 @@ Lund is one of Sweden’s oldest cities, rich in history, culture, and tradition
 
 👉 [Register here for cultural activities](https://registration.invajo.com/95c54a9f-a2a1-4f76-94f5-7f81ce5aacc2?page=00cc0dfd-5380-49ae-9016-80f710a44290) (Required for all pre-registration events except the Fun Run)
 
+
+
 ## 🗓️ Special Events
 
 <details>
@@ -89,28 +91,17 @@ Loading...
 </details>
 
 ## 🌿 Additional Local Highlights {#additional-local-highlights}
+<details>
+<summary style="font-size: 1.1em; font-weight: bold; cursor: pointer;">Click to view recommendations for independent exploration</summary>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+### Lund Cathedral  
+A Romanesque cathedral built in the early 1100s, Lund Cathedral is one of Scandinavia’s oldest and most significant religious buildings. The crypt, with its carved stone pillars, and the medieval astronomical clock are highlights of any visit.
 
-  <!-- Lund Cathedral -->
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Lund_domkyrka_2005.jpg" alt="Lund Cathedral" style="width: 100%; border-radius: 6px;">
-    <h3 style="margin-top: 0.8rem;">Lund Cathedral</h3>
-    <p>A Romanesque masterpiece from the 12th century. Explore the crypt, admire the astronomical clock, and experience one of Scandinavia's most iconic sacred spaces.</p>
-  </div>
+### Botanical Gardens  
+Located near the conference venues, Lund’s Botanical Gardens are open daily and free to enter. With more than 7,000 species and beautifully arranged walking paths, it's an ideal place to relax or take a mindful stroll between sessions.
 
-  <!-- Botanical Gardens -->
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Botaniska_tr%C3%A4dg%C3%A5rden_Lund_2012e.jpg/1024px-Botaniska_tr%C3%A4dg%C3%A5rden_Lund_2012e.jpg" alt="Botanical Gardens" style="width: 100%; border-radius: 6px;">
-    <h3 style="margin-top: 0.8rem;">Botanical Gardens</h3>
-    <p>Free to visit and home to over 7,000 species, the Botanical Gardens offer a tranquil retreat within walking distance from the conference venues.</p>
-  </div>
+### Streets of Lund  
+Lund’s historic city centre is best explored on foot. Wander cobbled alleys, pass by centuries-old houses, and enjoy the atmosphere around university squares and quiet courtyards. Cafés and bookstores line the walkways, offering plenty of opportunities to pause.
 
-  <!-- Streets of Lund -->
-  <div style="flex: 1 1 300px; border: 1px solid #ccc; border-radius: 8px; padding: 1rem;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kattesund_Lund_2008b.jpg/1024px-Kattesund_Lund_2008b.jpg" alt="Streets of Lund" style="width: 100%; border-radius: 6px;">
-    <h3 style="margin-top: 0.8rem;">Streets of Lund</h3>
-    <p>Cobbled alleys, colourful facades, academic courtyards, and cosy cafés — perfect for a slow afternoon exploration without a fixed itinerary.</p>
-  </div>
+</details>
 
-</div>
