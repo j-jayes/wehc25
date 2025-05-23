@@ -7,49 +7,69 @@ Lund is one of Sweden’s oldest cities, rich in history, culture, and tradition
 
 👉 [Register here for cultural activities](https://registration.invajo.com/95c54a9f-a2a1-4f76-94f5-7f81ce5aacc2?page=00cc0dfd-5380-49ae-9016-80f710a44290) (Required for all pre-registration events except the Fun Run)
 
+<details>
+<summary style="font-size: 1.1em; font-weight: bold; cursor: pointer;">📅 Browse Cultural Events by Date</summary>
+
+<br>
+
+- [Monday, 28 July](#monday-28-july)
+- [Tuesday, 29 July](#tuesday-29-july)
+- [Wednesday, 30 July](#wednesday-30-july)
+- [Thursday, 31 July](#thursday-31-july)
+- [Friday, 1 August](#friday-1-august)
+- [Daily Free Cultural Offerings](#daily-free-cultural-offerings-28-july--1-august)
+- [Local Highlights](#additional-local-highlights)
+
+</details>
+
 ---
 
-## Monday, 28 July
+<details open>
+<summary id="monday-28-july" style="font-size: 1.1em; font-weight: bold;">Monday, 28 July</summary>
 
 No special events are scheduled. Participants are encouraged to explore the **daily free cultural offerings** listed below.
 
----
+</details>
 
-## Tuesday, 29 July
+<details>
+<summary id="tuesday-29-july" style="font-size: 1.1em; font-weight: bold;">Tuesday, 29 July</summary>
 
-### Guided City Walk of Lund
+### Guided City Walk of Lund  
 - **Time:** 18:00–19:30  
 - **Meeting Point:** Outside AF-Borgen (main conference venue)  
 - A walking tour through Lund’s medieval streets. Includes Lund Cathedral, university landmarks, and historical sites.  
 - *Pre-registration required. Limited spaces. Fee: SEK 80*
 
----
+</details>
 
-## Wednesday, 30 July
+<details>
+<summary id="wednesday-30-july" style="font-size: 1.1em; font-weight: bold;">Wednesday, 30 July</summary>
 
 No special events are scheduled. See below for free museum visits and suggestions for independent exploration.
 
----
+</details>
 
-## Thursday, 31 July
+<details>
+<summary id="thursday-31-july" style="font-size: 1.1em; font-weight: bold;">Thursday, 31 July</summary>
 
-### Guided City Walk of Lund (Second Route)
+### Guided City Walk of Lund (Second Route)  
 - **Time:** 18:00–19:30  
 - **Meeting Point:** Outside AF-Borgen (main conference venue)  
 - A second walking tour featuring an alternative route to showcase different aspects of Lund’s heritage.  
 - *Pre-registration required. Limited spaces. Fee: SEK 80*
 
-### Guided Tour: Skissernas Museum (Museum of Artistic Process and Public Art)
+### Guided Tour: Skissernas Museum  
 - **Time:** 18:00–19:00  
 - **Location:** Finngatan 2, Lund  
 - Explore how public art is created, curated, and installed. Includes discussion of the museum’s architecture and changing exhibitions.  
 - *Pre-registration required. Limited spaces. Fee: SEK 100*
 
----
+</details>
 
-## Friday, 1 August
+<details>
+<summary id="friday-1-august" style="font-size: 1.1em; font-weight: bold;">Friday, 1 August</summary>
 
-### Archaeological Experience at Uppåkra
+### Archaeological Experience at Uppåkra  
 - **Time:** 09:00–12:00 (approximate)  
 - **Location:** Uppåkra Archaeological Centre (transport from central Lund at 09:00, exact location TBA)  
 - Visit one of the most important Viking and Iron Age sites in Scandinavia. Includes:
@@ -58,7 +78,7 @@ No special events are scheduled. See below for free museum visits and suggestion
   - Note: Wear comfortable shoes and bring weather-appropriate clothing  
 - *Pre-registration required. Limited spaces. Fee: SEK 280*
 
-### WEHC Fun Run
+### WEHC Fun Run  
 - **Time:** Meet at 16:45 for a 17:00 start  
 - **Meeting Point:** AF-Borgen (main conference venue)  
 - **Route:** A scenic 6km social run through northern Lund, past Sankt Hans Backar park, ending at Inferno bar.  
@@ -75,9 +95,11 @@ Loading...
 Loading...
 </iframe>
 
+</details>
+
 ---
 
-## Daily Free Cultural Offerings (28 July – 1 August)
+## Daily Free Cultural Offerings (28 July – 1 August) {#daily-free-cultural-offerings-28-july--1-august}
 
 ### Kulturen Open-Air Museum
 - **Location:** Tegnérsplatsen 6, Lund  
@@ -99,7 +121,7 @@ Loading...
 
 ---
 
-## Additional Local Highlights
+## Additional Local Highlights {#additional-local-highlights}
 
 - **Lund Cathedral:** Romanesque cathedral from the 12th century. Free and central.  
 - **Botanical Gardens:** Open daily, free entrance. Excellent for a relaxing walk near the conference venues.
