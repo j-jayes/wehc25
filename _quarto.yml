@@ -11,11 +11,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Calls"
-        menu:
-          - news/call-for-book-sessions.qmd
-          - news/call-for-posters.qmd
-          - news/call-for-dissertations.qmd
+     # - text: "Calls"
+       # menu:
+         # - news/call-for-book-sessions.qmd
+         # - news/call-for-posters.qmd
+         # - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
          # - news/call-for-sessions-member-associations.qmd
       - text: "Submission portal"
