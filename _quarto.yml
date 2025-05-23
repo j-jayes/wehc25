@@ -28,7 +28,7 @@ website:
             href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
       - href: /conference_program_v8.pdf
         text: "Conference Program" 
-      - href: content/cultural-program.qmd        
+     # - href: content/cultural-program.qmd        
       - href: content/travel-info.qmd
       - href: content/accommodations.qmd
       - href: content/participation-grants.qmd
