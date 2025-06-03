@@ -1,0 +1,33 @@
+---
+title: "{{< fa solid exclamation-triangle >}} Final Call for Session Updates"
+format: html
+description: "Last reminder for session organizers to finalize their sessions."
+date: 2025-06-03
+---
+
+We are now in the final phase of preparation for WEHC 2025. Please read this message carefully. It contains the last set of instructions for finalizing the academic programme.
+
+**Registration update**
+
+Following multiple requests, the registration system has been briefly reopened. The final deadline for registration is June 9th, 2025. The updated registration link is:
+
+[https://registration.invajo.com/ec5a84b1-c61f-40c5-afed-4ac014734cd7](https://registration.invajo.com/ec5a84b1-c61f-40c5-afed-4ac014734cd7)
+
+**Additional accommodation**
+
+An additional accommodation option is available via the Lund University Guest House. Full information and booking instructions are available here:
+
+[https://www.luaccommodation.lu.se/form/request-booking](https://www.luaccommodation.lu.se/form/request-booking)
+
+**Programme finalization**
+
+We would like to thank those organizers who have already reviewed their sessions and submitted corrections. Their timely cooperation is appreciated.
+
+For all remaining updates, please note:
+
+The online system is now closed for modifications. All remaining corrections must be sent directly to the organizing committee by email. Updates must include any changes to paper titles, presenters, chairs, discussants, or abstracts. This must be done as soon as possible, and no later than **June 9th**.
+
+After June 9th, the academic programme will enter final production. We cannot guarantee that any corrections submitted after this date will be included. This is the final reminder and the last opportunity to ensure that your session information is correctly displayed in the official programme.
+
+We thank you for your attention and cooperation.
+
