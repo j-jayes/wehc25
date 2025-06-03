@@ -2,7 +2,7 @@
 title: "{{< fa solid exclamation-triangle >}} Final Call for Session Updates"
 format: html
 description: "Last reminder for session organizers to finalize their sessions."
-date: 2025-06-03
+date: 2025-06-04
 ---
 
 We are now in the final phase of preparation for WEHC 2025. Please read this message carefully. It contains the last set of instructions for finalizing the academic programme.
