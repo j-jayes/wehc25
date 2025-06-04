@@ -26,7 +26,7 @@ website:
             href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
           - text: "Edit your session - member associations"
             href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
-      - href: /conference_program_v8.pdf
+      - href: /conference_program_v9.pdf
         text: "Conference Program" 
       - href: content/cultural-program.qmd        
       - href: content/travel-info.qmd
