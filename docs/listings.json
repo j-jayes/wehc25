@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/public_lectures.html",
       "/news/final_call.html",
       "/news/additional_accommodation.html",
       "/news/deadline_extension.html",
