@@ -156,11 +156,11 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 :::
 
 ::: {.column width="33%"}
-[![](assets/sponsors/riksbanken.png){width=80px}](https://www.rj.se/)
+[![](assets/riksbanken.png){width=80px}](https://www.rj.se/)
 :::
 
 ::: {.column width="33%"}
-[![](assets/sponsors/wallenberg.png){width=80px}](https://www.wallenberg.org/)
+[![](assets/wallenberg.png){width=80px}](https://www.wallenberg.org/)
 :::
 
 ::::
@@ -168,15 +168,15 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 :::: {.columns}
 
 ::: {.column width="33%"}
-[![](assets/sponsors/lundskommun.png){width=80px}](https://lund.se/)
+[![](assets/lundskommun.png){width=80px}](https://lund.se/)
 :::
 
 ::: {.column width="33%"}
-[![](assets/sponsors/regionskane.png){width=80px}](https://www.skane.se/)
+[![](assets/regionskane.png){width=80px}](https://www.skane.se/)
 :::
 
 ::: {.column width="33%"}
-[![](assets/sponsors/lusem.png){width=80px}](https://www.lusem.lu.se/)
+[![](assets/lusem.png){width=80px}](https://www.lusem.lu.se/)
 :::
 
 ::::
