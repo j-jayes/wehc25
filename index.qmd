@@ -145,42 +145,32 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 
 <!-- Sponsor Logos -->
 
-:::{.content-block .sponsor-logos style="text-align: center; margin-top: 30px;"}
+::: {.content-block}
 
 ### Sponsored by
 
-:::: {.columns}
-
-::: {.column width="33%"}
-[![](assets/handelsbanken.png){width=160px alt="Handelsbankens forskningsstiftelser"}](https://www.handelsbankensforskningsstiftelser.se/)
-:::
-
-::: {.column width="33%"}
-[![](assets/riksbanken.png){width=160px alt="Riksbankens Jubileumsfond"}](https://www.rj.se/)
-:::
-
-::: {.column width="33%"}
-[![](assets/wallenberg.png){width=160px alt="Wallenbergstiftelserna"}](https://www.wallenberg.org/)
-:::
-
-::::
-
-:::: {.columns}
-
-::: {.column width="33%"}
-[![](assets/lundskommun.png){width=160px alt="Lunds Kommun"}](https://lund.se/)
-:::
-
-::: {.column width="33%"}
-[![](assets/regionskane.png){width=160px alt="Region Skåne"}](https://www.skane.se/)
-:::
-
-::: {.column width="33%"}
-[![](assets/lusem.png){width=160px alt="Ekonomihögskolan Lunds universitet"}](https://www.lusem.lu.se/)
-:::
-
-::::
+<div class="sponsor-logos">
+  <a href="https://www.handelsbankensforskningsstiftelser.se/">
+    <img src="assets/handelsbanken.png" alt="Handelsbankens forskningsstiftelser">
+  </a>
+  <a href="https://www.rj.se/">
+    <img src="assets/riksbanken.png" alt="Riksbankens Jubileumsfond">
+  </a>
+  <a href="https://www.wallenberg.org/">
+    <img src="assets/wallenberg.png" alt="Wallenbergstiftelserna">
+  </a>
+  <a href="https://lund.se/">
+    <img src="assets/lundskommun.png" alt="Lunds Kommun">
+  </a>
+  <a href="https://www.skane.se/">
+    <img src="assets/regionskane.png" alt="Region Skåne">
+  </a>
+  <a href="https://www.lusem.lu.se/">
+    <img src="assets/lusem.png" alt="Ekonomihögskolan Lunds universitet">
+  </a>
+</div>
 
 :::
+
 
 
