@@ -144,30 +144,42 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 
 
 <!-- Sponsor Logos -->
-<div class="sponsor-logos" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px; margin-top: 30px;">
 
-  <a href="https://www.handelsbankensforskningsstiftelser.se/" target="_blank" rel="noopener">
-    <img src="assets/handelsbanken.png" alt="Handelsbankens forskningsstiftelser" style="max-height: 80px;">
-  </a>
+:::{.content-block .sponsor-logos style="text-align: center; margin-top: 30px;"}
 
-  <a href="https://www.rj.se/" target="_blank" rel="noopener">
-    <img src="assets/riksbanken.png" alt="Riksbankens Jubileumsfond" style="max-height: 80px;">
-  </a>
+### Sponsored by
 
-  <a href="https://www.wallenberg.org/" target="_blank" rel="noopener">
-    <img src="assets/wallenberg.png" alt="Wallenbergstiftelserna" style="max-height: 80px;">
-  </a>
+:::: {.columns}
 
-  <a href="https://lund.se/" target="_blank" rel="noopener">
-    <img src="assets/lundskommun.png" alt="Lunds Kommun" style="max-height: 80px;">
-  </a>
+::: {.column width="33%"}
+[![](assets/sponsors/handelsbanken.png){width=80px}](https://www.handelsbankensforskningsstiftelser.se/)
+:::
 
-  <a href="https://www.skane.se/" target="_blank" rel="noopener">
-    <img src="assets/regionskane.png" alt="Region Skåne" style="max-height: 80px;">
-  </a>
+::: {.column width="33%"}
+[![](assets/sponsors/riksbanken.png){width=80px}](https://www.rj.se/)
+:::
 
-  <a href="https://www.lusem.lu.se/" target="_blank" rel="noopener">
-    <img src="assets/lusem.png" alt="Ekonomihögskolan Lunds universitet" style="max-height: 80px;">
-  </a>
+::: {.column width="33%"}
+[![](assets/sponsors/wallenberg.png){width=80px}](https://www.wallenberg.org/)
+:::
 
-</div>
+::::
+
+:::: {.columns}
+
+::: {.column width="33%"}
+[![](assets/sponsors/lundskommun.png){width=80px}](https://lund.se/)
+:::
+
+::: {.column width="33%"}
+[![](assets/sponsors/regionskane.png){width=80px}](https://www.skane.se/)
+:::
+
+::: {.column width="33%"}
+[![](assets/sponsors/lusem.png){width=80px}](https://www.lusem.lu.se/)
+:::
+
+::::
+
+:::
+
