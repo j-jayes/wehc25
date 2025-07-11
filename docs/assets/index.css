@@ -275,3 +275,21 @@ nav.page-navigation {
     width: 60%; /* Set a width to control the block display on mobile */
   }
 }
+
+/* 1. Grid container for six logos, two rows of three */
+.sponsor-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;            /* space between logos */
+  justify-items: center;  /* center each logo in its cell */
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* 2. Uniform max height, auto width */
+.sponsor-logos img {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
