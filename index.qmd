@@ -131,7 +131,7 @@ We look forward to welcoming you to Lund in July 2025!
 
 ### Contact us {{< fa paper-plane >}}
 
-Get in touch with the organizing committee [here](mailto:wehc2025@ekh.lu.se).
+Get in touch with the organising committee [here](mailto:wehc2025@ekh.lu.se).
 
 ```{r}
 <!--
@@ -147,31 +147,27 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 <div class="sponsor-logos" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px; margin-top: 30px;">
 
   <a href="https://www.handelsbankensforskningsstiftelser.se/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/handelsbanken.png" alt="Handelsbankens forskningsstiftelser" style="max-height: 80px;">
+    <img src="assets/handelsbanken.png" alt="Handelsbankens forskningsstiftelser" style="max-height: 80px;">
   </a>
 
   <a href="https://www.rj.se/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/riksbanken.png" alt="Riksbankens Jubileumsfond" style="max-height: 80px;">
+    <img src="assets/riksbanken.png" alt="Riksbankens Jubileumsfond" style="max-height: 80px;">
   </a>
 
   <a href="https://www.wallenberg.org/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/wallenberg.png" alt="Wallenbergstiftelserna" style="max-height: 80px;">
+    <img src="assets/wallenberg.png" alt="Wallenbergstiftelserna" style="max-height: 80px;">
   </a>
 
   <a href="https://lund.se/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/lundskommun.png" alt="Lunds Kommun" style="max-height: 80px;">
+    <img src="assets/lundskommun.png" alt="Lunds Kommun" style="max-height: 80px;">
   </a>
 
   <a href="https://www.skane.se/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/regionskane.png" alt="Region Skåne" style="max-height: 80px;">
+    <img src="assets/regionskane.png" alt="Region Skåne" style="max-height: 80px;">
   </a>
 
   <a href="https://www.lusem.lu.se/" target="_blank" rel="noopener">
-    <img src="assets/sponsors/lusem.png" alt="Ekonomihögskolan Lunds universitet" style="max-height: 80px;">
+    <img src="assets/lusem.png" alt="Ekonomihögskolan Lunds universitet" style="max-height: 80px;">
   </a>
 
 </div>
-
-
-
-
