@@ -142,35 +142,3 @@ knitr::include_graphics("assets/logo_WEHC.svg")
 ![](assets/logo_WEHC.svg){width=50%}
 
 
-
-<!-- Sponsor Logos -->
-
-::: {.content-block}
-
-### Sponsored by
-
-<div class="sponsor-logos">
-  <a href="https://www.handelsbankensforskningsstiftelser.se/">
-    <img src="assets/handelsbanken.png" alt="Handelsbankens forskningsstiftelser">
-  </a>
-  <a href="https://www.rj.se/">
-    <img src="assets/riksbanken.png" alt="Riksbankens Jubileumsfond">
-  </a>
-  <a href="https://www.wallenberg.org/">
-    <img src="assets/wallenberg.png" alt="Wallenbergstiftelserna">
-  </a>
-  <a href="https://lund.se/">
-    <img src="assets/lundskommun.png" alt="Lunds Kommun">
-  </a>
-  <a href="https://www.skane.se/">
-    <img src="assets/regionskane.png" alt="Region Skåne">
-  </a>
-  <a href="https://www.lusem.lu.se/">
-    <img src="assets/lusem.png" alt="Ekonomihögskolan Lunds universitet">
-  </a>
-</div>
-
-:::
-
-
-
