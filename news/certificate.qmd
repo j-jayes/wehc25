@@ -1,7 +1,7 @@
 ---
-title: "{{< fa certificate >}} Certificates"
+title: "{{< fa scroll >}} Certificates of participation"
 format: html
-description: Certificate of participation
+description: Let me know if you need one!
 date: 2025-08-04
 
 ---
@@ -16,4 +16,4 @@ When making your request, please be specific about what you need included in the
 
 We thank you once again for being part of WEHC 2025 and look forward to seeing you in Montevideo in 2028.  
 
-Igor Martins, on behalf of the WEHC 2025 organising committee
+Igor Martins, on behalf of the WEHC 2025 organising committee.
