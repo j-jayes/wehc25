@@ -1,5 +1,6 @@
 ---
-title: "{{< fa comments >}} Public lectures"
+title: "Public Lectures"
+page-title: "{{< fa comments >}} Public Lectures"
 format: html
 description: "Tre öppna föreläsningar i Stadshallen om historia, makt och arbete."
 date: 2025-06-19
