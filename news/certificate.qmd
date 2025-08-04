@@ -1,5 +1,6 @@
 ---
-title: "{{< fa scroll >}} Certificates of participation"
+title: "Certificate of Participation"
+page-title: "{{< fa scroll >}} Certificates of participation"
 format: html
 description: Let me know if you need one!
 date: 2025-08-04
