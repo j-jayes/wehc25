@@ -18,20 +18,23 @@ website:
          # - news/call-for-dissertations.qmd
          # - news/call-for-sessions.qmd
          # - news/call-for-sessions-member-associations.qmd
-      - text: "Submission portal"
-        menu:
+     # - text: "Submission portal"
+     #   menu:
           # - news/call-for-posters.qmd
           # - news/call-for-dissertations.qmd
-          - text: "Edit your session"
-            href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
-          - text: "Edit your session - member associations"
-            href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
+          # - text: "Edit your session"
+          #  href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025"
+          # - text: "Edit your session - member associations"
+          #  href: "https://www.appinconf.com/kas/Abstract?projectName=wehc2025members"    
       - href: /WEHC_Conference_Program_2025_v3.pdf
         text: "Conference Program" 
       - href: content/cultural-program.qmd        
       - href: content/travel-info.qmd
       - href: content/accommodations.qmd
       - href: news/public_lectures.qmd
+        text: "Public Lectures"
+      - href: news/certificate.qmd
+        text: "Certificates"
     right:
       - href: content/contact.qmd
       - href: "https://visitlund.se/en"
