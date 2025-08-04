@@ -13,34 +13,6 @@ listing:
   sort-ui: true
   filter-ui: false
   page-size: 6
-include-before-body:
-  text: |
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Set the date of the conference
-        var countDownDate = new Date("2025-07-28 09:00:00").getTime();
-
-        // Update the countdown every second
-        var x = setInterval(function() {
-          var now = new Date().getTime();
-          var distance = countDownDate - now;
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-          document.getElementById("days").innerText = days;
-          document.getElementById("hours").innerText = hours;
-          document.getElementById("minutes").innerText = minutes;
-          document.getElementById("seconds").innerText = seconds;
-
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "The conference has started!";
-          }
-        }, 1000);
-      });
-    </script>
 ---
 
 ::: {.hero-banner}
@@ -56,7 +28,7 @@ include-before-body:
 :::: {.columns .maven-style}
 ::: {.column width="40%"}
 
-28 July -<br>1 August 2025
+28 July –<br>1 August 2025
 
 Lund, Sweden
 :::
@@ -66,29 +38,27 @@ Lund, Sweden
 :::
 
 <div>
-  **Registration window briefly reopened. Click [here](https://registration.invajo.com/ec5a84b1-c61f-40c5-afed-4ac014734cd7) to register.**
+  <strong>Thank you to everyone who joined us in Lund!</strong><br>
+  We look forward to seeing you in <a href="https://wehcmontevideo2028.org/" target="_blank">Montevideo in 2028</a>.
 </div>
 
 <div>
-  **Beware of Potential Spam Emails! Click [here](https://wehc2025.com/news/be-aware-spam) for more information.**
+  <strong>Beware of Potential Spam Emails!</strong> Click 
+  <a href="https://wehc2025.com/news/be-aware-spam">here</a> for more information.
 </div>
 
-The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.
+The World Economic History Congress (WEHC) is an international and interdisciplinary event held every three years, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.
 
-The theme for the 2025 Congress is "Equality and Sustainability Challenges." This theme underscores some of the pressing issues humanity faces today and draws connections to a diverse array of historical problems. To both understand and address these challenges and to derive insights from the historical record, a range of perspectives is essential.
+The 2025 Congress in Lund focused on the theme of "Equality and Sustainability Challenges," addressing pressing global issues and connecting them to diverse historical perspectives.
 
-We look forward to welcoming you to Lund in July 2025!
+Thank you for making WEHC 2025 an extraordinary success. See you in Montevideo!
 
 ::::
 
 ::: {.hero-buttons}
 
 <div class="d-flex justify-content-center">
-
-[Register](content/registration.qmd){.btn-action-primary .btn-action .btn .btn-success role="button"}
-<!-- [Propose a session](news/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
-<!-- [Propose a member association session](news/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"} -->
-
+[Visit WEHC 2028](https://wehcmontevideo2028.org/){.btn-action-primary .btn-action .btn .btn-info role="button"}
 </div>
 
 :::
@@ -109,12 +79,10 @@ We look forward to welcoming you to Lund in July 2025!
   </iframe>
 </div>
 
-<!-- Countdown Timer -->
-<div id="countdown">
-  <span id="days"></span> Days 
-  <span id="hours"></span> Hours 
-  <span id="minutes"></span> Minutes 
-  <span id="seconds"></span> Seconds
+<!-- Thank You Banner -->
+<div id="thank-you" style="text-align: center; margin: 40px 0; font-size: 1.2em;">
+  <strong>Thank you for joining us in Lund!</strong><br>
+  We look forward to welcoming you in <a href="https://wehcmontevideo2028.org/" target="_blank">Montevideo in 2028</a>.
 </div>
 
 ::: {.content-block style="text-align: center;"}
@@ -133,12 +101,7 @@ We look forward to welcoming you to Lund in July 2025!
 
 Get in touch with the organising committee [here](mailto:wehc2025@ekh.lu.se).
 
-```{r}
-<!--
-#| fig-width: 2
-knitr::include_graphics("assets/logo_WEHC.svg")
--->
-
 ![](assets/logo_WEHC.svg){width=50%}
 
-
+:::
+:::
