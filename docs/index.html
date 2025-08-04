@@ -209,32 +209,6 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
 <!-- main -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Set the date of the conference
-    var countDownDate = new Date("2025-07-28 09:00:00").getTime();
-
-    // Update the countdown every second
-    var x = setInterval(function() {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      document.getElementById("days").innerText = days;
-      document.getElementById("hours").innerText = hours;
-      document.getElementById("minutes").innerText = minutes;
-      document.getElementById("seconds").innerText = seconds;
-
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("countdown").innerHTML = "The conference has started!";
-      }
-    }, 1000);
-  });
-</script>
 
 
 
@@ -247,19 +221,19 @@ window.Quarto = {
 <h2>World Economic History Congress</h2>
 <div class="columns maven-style">
 <div class="column" style="width:40%;">
-<p>28 July -<br>1 August 2025</p>
+<p>28 July –<br>1 August 2025</p>
 <p>Lund, Sweden</p>
 </div><div class="column" style="width:60%;">
 <p><img src="assets/logo_WEHC.svg" class="img-fluid"></p>
 </div><div>
-<p><strong>Registration window briefly reopened. Click <a href="https://registration.invajo.com/ec5a84b1-c61f-40c5-afed-4ac014734cd7">here</a> to register.</strong></p>
+<p><strong>Thank you to everyone who joined us in Lund!</strong><br> We look forward to seeing you in <a href="https://wehcmontevideo2028.org/" target="_blank">Montevideo in 2028</a>.</p>
 </div><div>
-<p><strong>Beware of Potential Spam Emails! Click <a href="https://wehc2025.com/news/be-aware-spam">here</a> for more information.</strong></p>
-</div><p>The World Economic History Congress (WEHC) is an international and interdisciplinary event, taking place every third year, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.</p><p>The theme for the 2025 Congress is “Equality and Sustainability Challenges.” This theme underscores some of the pressing issues humanity faces today and draws connections to a diverse array of historical problems. To both understand and address these challenges and to derive insights from the historical record, a range of perspectives is essential.</p><p>We look forward to welcoming you to Lund in July 2025!</p>
+<p><strong>Beware of Potential Spam Emails!</strong> Click <a href="https://wehc2025.com/news/be-aware-spam">here</a> for more information.</p>
+</div><p>The World Economic History Congress (WEHC) is an international and interdisciplinary event held every three years, placing economic history at its core. The congress appeals not only to economic historians but also to historians, political scientists, management scientists, sociologists, demographers, geographers, anthropologists, ethnographers, psychologists, philosophers, historians of science and technology, and natural and life scientists. Researchers from around the world are cordially invited to participate.</p><p>The 2025 Congress in Lund focused on the theme of “Equality and Sustainability Challenges,” addressing pressing global issues and connecting them to diverse historical perspectives.</p><p>Thank you for making WEHC 2025 an extraordinary success. See you in Montevideo!</p>
 </div>
 <div class="hero-buttons">
 <div class="d-flex justify-content-center">
-<p><a href="./content/registration.html" class="btn-action-primary btn-action btn btn-success" role="button">Register</a> <!-- [Propose a session](news/call-for-sessions.qmd){#btn-guide .btn-action .btn .btn-info role="button"} --> <!-- [Propose a member association session](news/call-for-sessions-member-associations.qmd){#btn-guide .btn-action .btn .btn-info role="button"} --></p>
+<p><a href="https://wehcmontevideo2028.org/" class="btn-action-primary btn-action btn btn-info" role="button">Visit WEHC 2028</a></p>
 </div>
 </div>
 </section>
@@ -271,9 +245,9 @@ window.Quarto = {
 <div style="width: 100%; height: 400px; margin-bottom: 20px;">
 <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1800.2023446976987!2d13.193020176022609!3d55.70537119564435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465397c5652d60f7%3A0x1b08fde3cbce8eba!2sAF%20Borgen%20AB!5e1!3m2!1sen!2sse!4v1727614527871!5m2!1sen!2sse" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe></p>
 </div>
-<!-- Countdown Timer -->
-<div id="countdown">
-<p><span id="days"></span> Days <span id="hours"></span> Hours <span id="minutes"></span> Minutes <span id="seconds"></span> Seconds</p>
+<!-- Thank You Banner -->
+<div id="thank-you" style="text-align: center; margin: 40px 0; font-size: 1.2em;">
+<p><strong>Thank you for joining us in Lund!</strong><br> We look forward to welcoming you in <a href="https://wehcmontevideo2028.org/" target="_blank">Montevideo in 2028</a>.</p>
 </div>
 <section id="news" class="content-block" style="text-align: center;">
 <h2><i class="fa-solid fa-newspaper" aria-label="newspaper"></i> News</h2>
@@ -292,7 +266,7 @@ window.Quarto = {
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1750291200000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1750291200000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
 <a href="./news/public_lectures.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -305,7 +279,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1748995200000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1748995200000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <a href="./news/final_call.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -318,7 +292,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1748908800000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1748908800000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <a href="./news/additional_accommodation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -331,7 +305,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1748908800000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1748908800000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <a href="./news/deadline_extension.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -344,7 +318,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1738108800000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1738108800000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
 <a href="./news/be-advised.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -357,7 +331,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1738108800000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1738108800000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
 <a href="./news/be-aware-spam.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -370,7 +344,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
 <a href="./news/keynotes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -383,7 +357,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1730160000000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="966">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1730160000000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="966">
 <a href="./news/registration.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -396,7 +370,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1729555200000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1729555200000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
 <a href="./news/call-for-book-sessions.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -409,7 +383,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1729555200000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1729555200000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
 <a href="./news/participation-grants.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -422,7 +396,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1727568000000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1231">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1727568000000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1231">
 <a href="./news/accommodations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -435,7 +409,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1727568000000" data-listing-file-modified-sort="1753797275558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1727568000000" data-listing-file-modified-sort="1754294180643" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <a href="./news/planning-trip.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -448,7 +422,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1753797275534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1754294180619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
 <a href="./news/call-for-dissertations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -461,7 +435,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1753797275540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="g-col-1" data-index="13" data-listing-date-sort="1726617600000" data-listing-file-modified-sort="1754294180625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <a href="./news/call-for-posters.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -474,7 +448,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1753797275546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="g-col-1" data-index="14" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1754294180631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
 <a href="./news/call-for-sessions-member-associations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -487,7 +461,7 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1753797275552" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="369">
+<div class="g-col-1" data-index="15" data-listing-date-sort="1694563200000" data-listing-file-modified-sort="1754294180637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="369">
 <a href="./news/call-for-sessions.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -511,16 +485,12 @@ window.Quarto = {
 <section id="contact-us" class="content-block">
 <h3>Contact us <i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></h3>
 <p>Get in touch with the organising committee <a href="mailto:wehc2025@ekh.lu.se">here</a>.</p>
-<!--
-#| fig-width: 2
-knitr::include_graphics("assets/logo_WEHC.svg")
--->
 <p><img src="assets/logo_WEHC.svg" class="img-fluid" style="width:50.0%"></p>
-
-
-
 </section>
 </div>
+
+
+
 
 
 <script id="quarto-html-after-body" type="application/javascript">
